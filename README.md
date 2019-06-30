@@ -22,13 +22,14 @@ Current animations:
 
 10 - Grow and fade in
 
-11 -
+11 - Word flip
 
-12 -
+12 - Word flip alternate
 
-13 -
+13 - Exit top
 
-14 -
+14 - Exit bottom
 
-15 -
+15 - Exit right
 
+16 - Exit left
