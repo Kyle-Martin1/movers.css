@@ -1,35 +1,43 @@
-# CSS-Animations
-
-Current animations:
+## CSS-Animations
+---
+#### Entry animations:
 
 1 - Fade in
 
-2 - Enter from top and bounce
+2 - Enter from top
 
-3 - Enter from bottom and bounce
+3 - Enter from bottom
 
-4 - Enter from right and bounce
+4 - Enter from right
 
-5 - Enter from left and bounce
+5 - Enter from left
 
-6 - Shake
+6 - Rotate clockwise
 
-7 - Rotate clockwise and fade in
+7 - Rotate anti-clockwise
 
-8 - Rotate anti-clockwise and fade in
+8 - Shrink and fade in
 
-9 - Shrink and fade in
+9 - Grow and fade in
 
-10 - Grow and fade in
+10 - Word flip
 
-11 - Word flip
+11 - Word flip alternate
 
-12 - Word flip alternate
+---
 
-13 - Exit top
+#### Exit animations:
 
-14 - Exit bottom
+1 - Exit top
 
-15 - Exit right
+2 - Exit bottom
 
-16 - Exit left
+3 - Exit right
+
+4 - Exit left
+
+---
+
+#### Other animations:
+
+1 - Shake
