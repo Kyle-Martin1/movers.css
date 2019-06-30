@@ -1,7 +1,9 @@
 ## CSS-Animations
+
+- Please feel free to use any code and any animations from this collection! :)
+
 ---
-Please feel free to use any code and any animations from this collection! :)
----
+
 #### Entry animations:
 
 1 - Fade in
