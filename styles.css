@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+:root {
+  font-family: 'Oswald', sans-serif;
+}
+
+html {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fromLeftAndBounce {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+h1 {
+  animation-name: fromLeftAndBounce;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+}
+
+
+
+
+
+
+
+
+
+
+/**********************************************
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes fromTopAndBounce {
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+h1 {
+  animation-name: fromTopAndBounce;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes fromBottomAndBounce {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+h1 {
+  animation-name: fromBottomAndBounce;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes fromRightAndBounce {
+  0% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+h1 {
+  animation-name: fromRightAndBounce;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes fromLeftAndBounce {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+h1 {
+  animation-name: fromLeftAndBounce;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
