@@ -1,4 +1,6 @@
-/* 1 *********************************************
+/***********************  Entry Animations ***********************/
+
+/**********************************************
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -19,8 +21,8 @@
 
 
 
-/* 2 *********************************************
-@keyframes fromTopAndBounce {
+/**********************************************
+@keyframes enterTop {
   0% {
     transform: translateY(-1000px);
   }
@@ -30,7 +32,7 @@
 }
 
 .selector {
-  animation-name: fromTopAndBounce;
+  animation-name: enterTop;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
 }
@@ -40,8 +42,8 @@
 
 
 
-/* 3 *********************************************
-@keyframes fromBottomAndBounce {
+/**********************************************
+@keyframes enterBottom {
   0% {
     transform: translateY(1000px);
   }
@@ -51,7 +53,7 @@
 }
 
 .selector {
-  animation-name: fromBottomAndBounce;
+  animation-name: enterBottom;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
 }
@@ -61,8 +63,8 @@
 
 
 
-/* 4 *********************************************
-@keyframes fromRightAndBounce {
+/**********************************************
+@keyframes enterRight {
   0% {
     transform: translateX(1000px);
   }
@@ -72,7 +74,7 @@
 }
 
 .selector {
-  animation-name: fromRightAndBounce;
+  animation-name: enterRight;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
 }
@@ -82,8 +84,8 @@
 
 
 
-/* 5 *********************************************
-@keyframes fromLeftAndBounce {
+/**********************************************
+@keyframes enterLeft {
   0% {
     transform: translateX(-1000px);
   }
@@ -93,7 +95,7 @@
 }
 
 .selector {
-  animation-name: fromLeftAndBounce;
+  animation-name: enterLeft;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
 }
@@ -103,41 +105,8 @@
 
 
 
-/* 6 *********************************************
-@keyframes shake {
-  0% {
-    transform: translateX(0px);
-  }
-  20% {
-    transform: translateX(25px);
-  }
-  40% {
-    transform: translateX(-25px);
-  }
-  60% {
-    transform: translateX(25px);
-  }
-  80% {
-    transform: translateX(-25px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-.selector {
-  animation-name: shake;
-  animation-duration: 0.5s;
-  animation-timing-function: cubic-bezier(.64,.03,.64,1.47);
-}
-*********************************************/
-
-
-
-
-
-/* 7 *********************************************
-@keyframes rotateClockwiseAndFade {
+/**********************************************
+@keyframes rotateClockwise {
   0% {
     transform: rotate(0deg);
     opacity: 0;
@@ -154,7 +123,7 @@
 }
 
 .selector {
-  animation-name: rotateClockwiseAndFade;
+  animation-name: rotateClockwise;
   animation-duration: 1s;
   animation-timing-function: linear;
 }
@@ -164,8 +133,8 @@
 
 
 
-/* 8 *********************************************
-@keyframes rotateAntiClockwiseAndFade {
+/**********************************************
+@keyframes rotateAntiClockwise {
   0% {
     transform: rotate(0deg);
     opacity: 0;
@@ -182,7 +151,7 @@
 }
 
 .selector {
-  animation-name: rotateAntiClockwiseAndFade;
+  animation-name: rotateAntiClockwise;
   animation-duration: 1s;
   animation-timing-function: linear;
 }
@@ -192,7 +161,7 @@
 
 
 
-/* 9 *********************************************
+/**********************************************
 @keyframes shrinkAndFadeIn {
   0% {
     transform: scale(3);
@@ -219,7 +188,7 @@
 
 
 
-/* 10 *********************************************
+/**********************************************
 @keyframes growAndFadeIn {
   0% {
     transform: scale(0.2);
@@ -246,8 +215,8 @@
 
 
 
-/* 11 *********************************************
-@keyframes wordFlip {
+/**********************************************
+@keyframes wordFlipIn {
   0% {
     transform: rotateX(180deg);
     opacity: 0;
@@ -259,7 +228,7 @@
 }
 
 h1 {
-  animation-name: wordFlip;
+  animation-name: wordFlipIn;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
@@ -269,8 +238,8 @@ h1 {
 
 
 
-/* 12 *********************************************
-@keyframes wordFlipAlternate {
+/**********************************************
+@keyframes wordFlipAlternateIn {
   0% {
     transform: rotateY(180deg);
     opacity: 0;
@@ -282,7 +251,7 @@ h1 {
 }
 
 h1 {
-  animation-name: wordFlipAlternate;
+  animation-name: wordFlipAlternateIn;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
@@ -292,7 +261,21 @@ h1 {
 
 
 
-/* 13 *********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************  Exit Animations ***********************/
+
+/**********************************************
 @keyframes exitTop {
   0% {
     transform: translateY(0px);
@@ -313,7 +296,7 @@ h1 {
 
 
 
-/* 14 *********************************************
+/**********************************************
 @keyframes exitBottom {
   0% {
     transform: translateY(0px);
@@ -334,7 +317,7 @@ h1 {
 
 
 
-/* 15 *********************************************
+/**********************************************
 @keyframes exitRight {
   0% {
     transform: translateX(0px);
@@ -355,7 +338,7 @@ h1 {
 
 
 
-/* 16 *********************************************
+/**********************************************
 @keyframes exitLeft {
   0% {
     transform: translateX(0px);
@@ -370,60 +353,4 @@ h1 {
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
 }
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
 *********************************************/
