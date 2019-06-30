@@ -18,9 +18,9 @@ Current animations:
 
 8 - Rotate anti-clockwise and fade in
 
-9 -
+9 - Shrink and fade in
 
-10 -
+10 - Grow and fade in
 
 11 -
 
@@ -31,3 +31,4 @@ Current animations:
 14 -
 
 15 -
+
