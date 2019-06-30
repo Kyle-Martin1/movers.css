@@ -17,19 +17,26 @@ body {
   align-items: center;
 }
 
-@keyframes fromLeftAndBounce {
+@keyframes rotateAntiClockwiseAndFade {
   0% {
-    transform: translateX(-1000px);
+    transform: rotate(0deg);
+    opacity: 0;
   }
+  50% {
+    transform: rotate(-180deg);
+    opacity: 0.5;
+  }
+
   100% {
-    transform: translateX(0px);
+    transform: rotate(-360deg);
+    opacity: 1;
   }
 }
 
 h1 {
-  animation-name: fromLeftAndBounce;
+  animation-name: rotateAntiClockwiseAndFade;
   animation-duration: 1s;
-  animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  animation-timing-function: linear;
 }
 
 
@@ -147,7 +154,32 @@ h1 {
 
 
 /**********************************************
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(25px);
+  }
+  40% {
+    transform: translateX(-25px);
+  }
+  60% {
+    transform: translateX(25px);
+  }
+  80% {
+    transform: translateX(-25px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 
+h1 {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(.64,.03,.64,1.47);
+}
 *********************************************/
 
 
@@ -155,7 +187,27 @@ h1 {
 
 
 /**********************************************
+@keyframes rotateClockwiseAndFade {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(180deg);
+    opacity: 0.5;
+  }
 
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation-name: rotateClockwiseAndFade;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
 *********************************************/
 
 
@@ -163,7 +215,27 @@ h1 {
 
 
 /**********************************************
+@keyframes rotateAntiClockwiseAndFade {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(-180deg);
+    opacity: 0.5;
+  }
 
+  100% {
+    transform: rotate(-360deg);
+    opacity: 1;
+  }
+}
+
+h1 {
+  animation-name: rotateAntiClockwiseAndFade;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
 *********************************************/
 
 
