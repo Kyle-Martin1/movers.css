@@ -1,9 +1,8 @@
-## CSS-Animations
+<h2 align="center">CSS-Animations</h2>
 
-`allAnimations.css` is a collection of CSS based animations free to a good home! Please see below for a full list of current animations.
+`movers.css` is a collection of CSS based animations free to a good home! Please see below for a full list of current animations.
 
-## How to use
-
+<h2 align="center">How to use</h2>
 To use any animation from the collection copy the code into your CSS file such as in the example below:
 
 ```
@@ -27,7 +26,7 @@ Then change `.selector` to the `element`, `ID` or `class` of the item you would 
 
 >**Browser compatibility** - to ensure cross-browser compatibility i would recommend adding the necessary CSS vendor prefixes as not all animation effects are currently available in all browsers without these.
 
-## Animations list
+<h2 align="center">Animations list</h2>
 
 | Animations list   |                    |
 | ----------------- | ------------------ |
@@ -50,3 +49,7 @@ Then change `.selector` to the `element`, `ID` or `class` of the item you would 
 |                   | `Exit left`        |
 | Other Animations  |                    |
 |                   | `Shake`            |
+
+
+<br>
+<h3 align="center">Enjoy! :)</h3>
