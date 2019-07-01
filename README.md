@@ -5,7 +5,7 @@
 <h2 align="center">How to use</h2>
 To use any animation from the collection copy the code into your CSS file such as in the example below:
 
-```
+```css
 @keyframes fadeIn {
   0% {
     opacity: 0;
