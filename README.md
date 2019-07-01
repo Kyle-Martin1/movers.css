@@ -42,8 +42,12 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                   | `Rotate anticlockwise`|
 |                   | `Shrink and fade in`  |
 |                   | `Grow and fade in` |
-|                   | `Word flip`        |
-|                   | `Word flip alternate` |
+|                   | `Flip`             |
+|                   | `Flip alternate`   |
+|                   | `Hinge up left`    |
+|                   | `Hinge up right`   |
+|                   | `Hinge down right` |
+|                   | `Hinge down left`  |
 | Exit Animations   |                    |
 |                   | `Exit top`         |
 |                   | `Exit bottom`      |
@@ -51,6 +55,8 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                   | `Exit left`        |
 | Other Animations  |                    |
 |                   | `Shake`            |
+|                   | `Swing right`      |
+|                   | `Swing left`       |
 
 
 <br>
