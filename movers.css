@@ -216,7 +216,7 @@
 
 
 /**********************************************
-@keyframes wordFlipIn {
+@keyframes flip {
   0% {
     transform: rotateX(180deg);
     opacity: 0;
@@ -228,7 +228,7 @@
 }
 
 .selector {
-  animation-name: wordFlipIn;
+  animation-name: flip;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
@@ -239,7 +239,7 @@
 
 
 /**********************************************
-@keyframes wordFlipAlternateIn {
+@keyframes flipAlternate {
   0% {
     transform: rotateY(180deg);
     opacity: 0;
@@ -251,7 +251,7 @@
 }
 
 .selector {
-  animation-name: wordFlipAlternateIn;
+  animation-name: flipAlternate;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
