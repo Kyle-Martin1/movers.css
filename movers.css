@@ -227,7 +227,7 @@
   }
 }
 
-h1 {
+.selector {
   animation-name: wordFlipIn;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -250,7 +250,7 @@ h1 {
   }
 }
 
-h1 {
+.selector {
   animation-name: wordFlipAlternateIn;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -261,7 +261,117 @@ h1 {
 
 
 
+/**********************************************
+@keyframes hingeUpLeft {
+  0% {
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
 
+
+.selector {
+  animation-name: hingeUpLeft;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
+  transform-origin: bottom left;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes hingeUpRight {
+  0% {
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+.selector {
+  animation-name: hingeUpRight;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
+  transform-origin: bottom right;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes hingeDownRight {
+  0% {
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+.selector {
+  animation-name: hingeDownRight;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
+  transform-origin: bottom right;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes hingeDownLeft {
+  0% {
+    transform: rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+
+.selector {
+  animation-name: hingeDownLeft;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
+  transform-origin: bottom left;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
 
 
 
@@ -285,7 +395,7 @@ h1 {
   }
 }
 
-h1 {
+.selector {
   animation-name: exitTop;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
@@ -306,7 +416,7 @@ h1 {
   }
 }
 
-h1 {
+.selector {
   animation-name: exitBottom;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
@@ -327,7 +437,7 @@ h1 {
   }
 }
 
-h1 {
+.selector {
   animation-name: exitRight;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
@@ -348,11 +458,51 @@ h1 {
   }
 }
 
-h1 {
+.selector {
   animation-name: exitLeft;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
 }
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
 *********************************************/
 
 
@@ -400,4 +550,65 @@ h1 {
   animation-duration: 0.5s;
   animation-timing-function: linear;
 }
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes swingRight {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.selector {
+  animation-name: swingRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  transform-origin: center right;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@keyframes swingLeft {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+.selector {
+  animation-name: swingLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  transform-origin: center left;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
+
+
+
+
+/**********************************************
+
 *********************************************/
