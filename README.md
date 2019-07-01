@@ -1,47 +1,52 @@
 ## CSS-Animations
 
-- Please feel free to use any code and any animations from this collection! :)
+`allAnimations.css` is a collection of CSS based animations free to a good home! Please see below for a full list of current animations.
 
----
+## How to use
 
-#### Entry animations:
+To use any animation from the collection copy the code into your CSS file such as in the example below:
 
-1 - Fade in
+```
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-2 - Enter from top
+.selector {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+```
 
-3 - Enter from bottom
+Then change `.selector` to the `element`, `ID` or `class` of the item you would like to animate.
 
-4 - Enter from right
+>**Browser compatibility** - to ensure cross-browser compatibility i would recommend adding the necessary CSS vendor prefixes as not all animation effects are currently available in all browsers without these.
 
-5 - Enter from left
+## Animations list
 
-6 - Rotate clockwise
-
-7 - Rotate anti-clockwise
-
-8 - Shrink and fade in
-
-9 - Grow and fade in
-
-10 - Word flip
-
-11 - Word flip alternate
-
----
-
-#### Exit animations:
-
-1 - Exit top
-
-2 - Exit bottom
-
-3 - Exit right
-
-4 - Exit left
-
----
-
-#### Other animations:
-
-1 - Shake
+| Animations list   |                    |
+| ----------------- | ------------------ |
+| Entry Animations  |                    |
+|                   | `Fade in`          |
+|                   | `Enter from top`   |
+|                   | `Enter from bottom`|
+|                   | `Enter from right` |
+|                   | `Enter from left`  |
+|                   | `Rotate clockwise` |
+|                   | `Rotate anticlockwise`|
+|                   | `Shrink and fade in`  |
+|                   | `Grow and fade in` |
+|                   | `Word flip`        |
+|                   | `Word flip alternate` |
+| Exit Animations   |                    |
+|                   | `Exit top`         |
+|                   | `Exit bottom`      |
+|                   | `Exit right`       |
+|                   | `Exit left`        |
+| Other Animations  |                    |
+|                   | `Shake`            |
