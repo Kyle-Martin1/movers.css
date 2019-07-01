@@ -22,7 +22,9 @@ To use any animation from the collection copy the code into your CSS file such a
 }
 ```
 
-Then change `.selector` to the `element`, `ID` or `class` of the item you would like to animate.
+Then change `.selector` to the `element`, `id` or `class` of the item you would like to animate.
+
+Each animation can be customised and tweaked by changing the CSS properties such as `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count` etc.
 
 >**Browser compatibility** - to ensure cross-browser compatibility i would recommend adding the necessary CSS vendor prefixes as not all animation effects are currently available in all browsers without these.
 
