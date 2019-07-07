@@ -44,34 +44,38 @@ Each animation can be customised and tweaked by changing the CSS properties such
 
 <h2 align="center">Animations list</h2>
 
-| Animations list   |                    |
-| ----------------- | ------------------ |
-| Entry Animations  |                    |
-|                   | `Fade in`          |
-|                   | `Enter from top`   |
-|                   | `Enter from bottom`|
-|                   | `Enter from right` |
-|                   | `Enter from left`  |
-|                   | `Rotate clockwise` |
+| Animations list   |                       |
+| ----------------- | ----------------------|
+| Entry Animations  |                       |
+|                   | `Fade in`             |
+|                   | `Enter from top`      |
+|                   | `Enter from bottom`   |
+|                   | `Enter from right`    |
+|                   | `Enter from left`     |
+|                   | `Rotate clockwise`    |
 |                   | `Rotate anticlockwise`|
 |                   | `Shrink and fade in`  |
-|                   | `Grow and fade in` |
-|                   | `Flip`             |
-|                   | `Flip alternate`   |
-|                   | `Hinge up left`    |
-|                   | `Hinge up right`   |
-|                   | `Hinge down right` |
-|                   | `Hinge down left`  |
-| Exit Animations   |                    |
-|                   | `Exit top`         |
-|                   | `Exit bottom`      |
-|                   | `Exit right`       |
-|                   | `Exit left`        |
-| Other Animations  |                    |
-|                   | `Shake`            |
-|                   | `Swing right`      |
-|                   | `Swing left`       |
-|                   | `Color Shift`      |
+|                   | `Grow and fade in`    |
+|                   | `Flip`                |
+|                   | `Flip alternate`      |
+|                   | `Hinge up left`       |
+|                   | `Hinge up right`      |
+|                   | `Hinge down right`    |
+|                   | `Hinge down left`     |
+|                   | `Enter top left`      |
+|                   | `Enter top right`     |
+|                   | `Enter bottom left`   |
+|                   | `Enter bottom right`  |
+| Exit Animations   |                       |
+|                   | `Exit top`            |
+|                   | `Exit bottom`         |
+|                   | `Exit right`          |
+|                   | `Exit left`           |
+| Other Animations  |                       |
+|                   | `Shake`               |
+|                   | `Swing right`         |
+|                   | `Swing left`          |
+|                   | `Color Shift`         |
 
 
 <br>
