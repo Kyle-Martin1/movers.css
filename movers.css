@@ -26,6 +26,8 @@
           animation-duration: 2s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -67,6 +69,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
           animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -108,6 +112,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
           animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -149,6 +155,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
           animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -190,6 +198,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
           animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -241,6 +251,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -292,6 +304,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -343,6 +357,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -394,6 +410,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -435,6 +453,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -476,6 +496,8 @@
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -519,6 +541,8 @@
           animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -562,6 +586,8 @@
           animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -605,6 +631,8 @@
           animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -648,6 +676,8 @@
           animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 *********************************************/
 
@@ -806,7 +836,7 @@
 
 
 /**********************************************
--webkit-keyframes exitRight {
+@-webkit-keyframes exitRight {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -928,12 +958,6 @@
 *********************************************/
 
 
-
-
-
-/**********************************************
-
-*********************************************/
 
 
 
@@ -1086,6 +1110,8 @@
           animation-timing-function: ease-in-out;
   -webkit-transform-origin: center right;
           transform-origin: center right;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 *********************************************/
 
@@ -1125,6 +1151,8 @@
           animation-timing-function: ease-in-out;
   -webkit-transform-origin: center left;
           transform-origin: center left;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 *********************************************/
 
@@ -1133,7 +1161,71 @@
 
 
 /**********************************************
+@-webkit-keyframes colorShift {
+  0% {
+    color: #03132c;
+    opacity: 1;
+  }
+  20% {
+    color: #2cb6b9;
+    opacity: 1;
+  }
+  40% {
+    color: #fad06a;
+    opacity: 1;
+  }
+  60% {
+    color: #d9428a;
+    opacity: 1;
+  }
+  80% {
+    color: #5a719b;
+    opacity: 1;
+  }
+  100% {
+    color: #03132c;
+    opacity: 1;
+  }
+}
 
+
+@keyframes colorShift {
+  0% {
+    color: #03132c;
+    opacity: 1;
+  }
+  20% {
+    color: #2cb6b9;
+    opacity: 1;
+  }
+  40% {
+    color: #fad06a;
+    opacity: 1;
+  }
+  60% {
+    color: #d9428a;
+    opacity: 1;
+  }
+  80% {
+    color: #5a719b;
+    opacity: 1;
+  }
+  100% {
+    color: #03132c;
+    opacity: 1;
+  }
+}
+
+.selector {
+  -webkit-animation-name: colorShift;
+          animation-name: colorShift;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
 *********************************************/
 
 
