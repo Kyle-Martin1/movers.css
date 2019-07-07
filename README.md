@@ -71,6 +71,7 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                   | `Exit bottom`         |
 |                   | `Exit right`          |
 |                   | `Exit left`           |
+|                   | `Fade out`            |
 | Other Animations  |                       |
 |                   | `Shake`               |
 |                   | `Swing right`         |
