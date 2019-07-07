@@ -38,8 +38,8 @@
 /**********************************************
 @-webkit-keyframes enterTop {
   0% {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
     opacity: 0;
   }
   100% {
@@ -51,8 +51,8 @@
 
 @keyframes enterTop {
   0% {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    -webkit-transform: translateY(-300px);
+            transform: translateY(-300px);
     opacity: 0;
   }
   100% {
@@ -81,8 +81,8 @@
 /**********************************************
 @-webkit-keyframes enterBottom {
   0% {
-    -webkit-transform: translateY(1000px);
-            transform: translateY(1000px);
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
     opacity: 0;
   }
   100% {
@@ -94,8 +94,8 @@
 
 @keyframes enterBottom {
   0% {
-    -webkit-transform: translateY(1000px);
-            transform: translateY(1000px);
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
     opacity: 0;
   }
   100% {
@@ -124,8 +124,8 @@
 /**********************************************
 @-webkit-keyframes enterRight {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
     opacity: 0;
   }
   100% {
@@ -137,8 +137,8 @@
 
 @keyframes enterRight {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
     opacity: 0;
   }
   100% {
@@ -167,8 +167,8 @@
 /**********************************************
 @-webkit-keyframes enterLeft {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
     opacity: 0;
   }
   100% {
@@ -180,8 +180,8 @@
 
 @keyframes enterLeft {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
     opacity: 0;
   }
   100% {
@@ -686,6 +686,172 @@
 
 
 /**********************************************
+@-webkit-keyframes enterTopLeft {
+  0% {
+    -webkit-transform: translateX(-300px) translateY(-300px);
+            transform: translateX(-300px) translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterTopLeft {
+  0% {
+    -webkit-transform: translateX(-300px) translateY(-300px);
+            transform: translateX(-300px) translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.selector {
+  -webkit-animation-name: enterTopLeft;
+          animation-name: enterTopLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@-webkit-keyframes enterBottomRight {
+  0% {
+    -webkit-transform: translateX(300px) translateY(300px);
+            transform: translateX(300px) translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterBottomRight {
+  0% {
+    -webkit-transform: translateX(300px) translateY(300px);
+            transform: translateX(300px) translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.selector {
+  -webkit-animation-name: enterBottomRight;
+          animation-name: enterBottomRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@-webkit-keyframes enterTopRight {
+  0% {
+    -webkit-transform: translateX(300px) translateY(-300px);
+            transform: translateX(300px) translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterTopRight {
+  0% {
+    -webkit-transform: translateX(300px) translateY(-300px);
+            transform: translateX(300px) translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.selector {
+  -webkit-animation-name: enterTopRight;
+          animation-name: enterTopRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+*********************************************/
+
+
+
+
+
+
+/**********************************************
+@-webkit-keyframes enterBottomLeft {
+  0% {
+    -webkit-transform: translateX(-300px) translateY(300px);
+            transform: translateX(-300px) translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterBottomLeft {
+  0% {
+    -webkit-transform: translateX(-300px) translateY(300px);
+            transform: translateX(-300px) translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.selector {
+  -webkit-animation-name: enterBottomLeft;
+          animation-name: enterBottomLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
 
 *********************************************/
 
@@ -696,6 +862,15 @@
 /**********************************************
 
 *********************************************/
+
+
+
+
+
+/**********************************************
+
+*********************************************/
+
 
 
 

@@ -1662,3 +1662,205 @@ li span {
 }
 
 /*************/
+
+@-webkit-keyframes enterTopLeft {
+  0% {
+    -webkit-transform: translateX(-200px) translateY(-200px);
+            transform: translateX(-200px) translateY(-200px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterTopLeft {
+  0% {
+    -webkit-transform: translateX(-200px) translateY(-200px);
+            transform: translateX(-200px) translateY(-200px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.enterTopLeft {
+  -webkit-animation-name: enterTopLeft;
+          animation-name: enterTopLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*************/
+
+@-webkit-keyframes enterBottomRight {
+  0% {
+    -webkit-transform: translateX(200px) translateY(200px);
+            transform: translateX(200px) translateY(200px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterBottomRight {
+  0% {
+    -webkit-transform: translateX(200px) translateY(200px);
+            transform: translateX(200px) translateY(200px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.enterBottomRight {
+  -webkit-animation-name: enterBottomRight;
+          animation-name: enterBottomRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*************/
+
+@-webkit-keyframes enterTopRight {
+  0% {
+    -webkit-transform: translateX(300px) translateY(-300px);
+            transform: translateX(300px) translateY(-300px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterTopRight {
+  0% {
+    -webkit-transform: translateX(300px) translateY(-300px);
+            transform: translateX(300px) translateY(-300px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.enterTopRight {
+  -webkit-animation-name: enterTopRight;
+          animation-name: enterTopRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*************/
+
+@-webkit-keyframes enterBottomLeft {
+  0% {
+    -webkit-transform: translateX(-300px) translateY(300px);
+            transform: translateX(-300px) translateY(300px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterBottomLeft {
+  0% {
+    -webkit-transform: translateX(-300px) translateY(300px);
+            transform: translateX(-300px) translateY(300px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px) translateY(0px);
+            transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.enterBottomLeft {
+  -webkit-animation-name: enterBottomLeft;
+          animation-name: enterBottomLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*************/
