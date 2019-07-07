@@ -1,8 +1,6 @@
 <h2 align="center">CSS-Animations</h2>
 
-`movers.css` is a collection of CSS based animations free to a good home! Please see below for a full list of current animations.
-
->**Browser compatibility** - cross-browser compatibility has now been added so the code can just be dropped right into your existing code with minimal adjustments.
+`movers.css` is a collection of CSS based animations designed to make life easier! Please see below for a full list of current animations and a guide on how to use the library and add the animations to your own code.
 
 <h2 align="center">How to use</h2>
 To use any animation from the collection copy the code into your CSS file such as in the example below:
@@ -40,9 +38,9 @@ To use any animation from the collection copy the code into your CSS file such a
 }
 ```
 
-Then change `.selector` to the `element`, `id` or `class` of the item you would like to animate.
+Then change `.selector` to the `element`, `#id` or `.class` of the item you would like to animate.
 
-Each animation can be customised and tweaked by changing the CSS properties such as `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count` etc.
+Each animation can be customised and tweaked by changing the CSS properties such as `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count`, `animation-fill-mode` etc. You can also tweak colours, border-colours and anything else within your own stylesheet to truly customise your work.
 
 <h2 align="center">Animations list</h2>
 
@@ -73,6 +71,7 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                   | `Shake`            |
 |                   | `Swing right`      |
 |                   | `Swing left`       |
+|                   | `Color Shift`      |
 
 
 <br>
