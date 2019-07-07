@@ -133,8 +133,10 @@ h1 {
           animation-timing-function: ease-in;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
-          -webkit-animation-iteration-count: infinite;
-                  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 
@@ -221,10 +223,9 @@ li span {
   height: 100px;
 }
 
-
-
 /******************** Page element animations ******************/
 
+/******************* Header H1 animation *********************/
 @-webkit-keyframes introAnimation {
   0% {
     -webkit-transform: rotate(-90deg);
@@ -262,13 +263,15 @@ li span {
           transform-origin: bottom left;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
-
+/******************** Color change arrow animation ***************/
 @-webkit-keyframes colorChange {
   0% {
-    border-color: var(--primaryColor);
-    opacity: 1;
+    border-color: var(--secondaryColor);
+    opacity: 0;
   }
   20% {
     border-color: var(--fifthColor);
@@ -288,14 +291,14 @@ li span {
   }
   100% {
     border-color: var(--primaryColor);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 @keyframes colorChange {
   0% {
-    border-color: var(--primaryColor);
-    opacity: 1;
+    border-color: var(--secondaryColor);
+    opacity: 0;
   }
   20% {
     border-color: var(--fifthColor);
@@ -315,10 +318,111 @@ li span {
   }
   100% {
     border-color: var(--primaryColor);
+    opacity: 0;
+  }
+}
+
+/****************** Header para entry animation *******************/
+@-webkit-keyframes hingeUpRight {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 0;
+  }
+  70% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
     opacity: 1;
   }
 }
 
+@keyframes hingeUpRight {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 0;
+  }
+  70% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.intoAnimation2 {
+  -webkit-animation-name: hingeUpRight;
+          animation-name: hingeUpRight;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
+          animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+/********************* More Info entry animation *******************/
+@-webkit-keyframes enterRight {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes enterRight {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.moreInfo {
+  -webkit-animation-name: enterRight;
+          animation-name: enterRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
 
 /******************** Media Queries ******************/
 
@@ -1329,6 +1433,81 @@ li span {
           animation-duration: 2s;
   -webkit-animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
           animation-timing-function: cubic-bezier(.52,-0.3,.6,1.03);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*************/
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  10% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  20% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  30% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  40% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  50% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  10% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  20% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  30% {
+    -webkit-transform: translateX(25px);
+            transform: translateX(25px);
+  }
+  40% {
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+  50% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+          animation-name: shake;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
