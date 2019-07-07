@@ -194,6 +194,19 @@ li span {
   border-radius: 25px;
 }
 
+.animationExamplesContainer {
+  border-top: solid;
+  border-width: 0.3px;
+  -webkit-animation-name: colorChange2;
+          animation-name: colorChange2;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 
 
 /****************** Animation examples **********/
@@ -329,6 +342,62 @@ li span {
   100% {
     border-color: var(--primaryColor);
     opacity: 0;
+  }
+}
+
+/****************** Color change lines animation *******************/
+
+@-webkit-keyframes colorChange2 {
+  0% {
+    border-color: var(--primaryColor);
+    opacity: 1;
+  }
+  20% {
+    border-color: var(--fifthColor);
+    opacity: 1;
+  }
+  40% {
+    border-color: var(--fourthColor);
+    opacity: 1;
+  }
+  60% {
+    border-color: var(--thirdColor);
+    opacity: 1;
+  }
+  80% {
+    border-color: var(--sixthColor);
+    opacity: 1;
+  }
+  100% {
+    border-color: var(--primaryColor);
+    opacity: 1;
+  }
+}
+
+@keyframes colorChange2 {
+  0% {
+    border-color: var(--primaryColor);
+    opacity: 1;
+  }
+  20% {
+    border-color: var(--fifthColor);
+    opacity: 1;
+  }
+  40% {
+    border-color: var(--fourthColor);
+    opacity: 1;
+  }
+  60% {
+    border-color: var(--thirdColor);
+    opacity: 1;
+  }
+  80% {
+    border-color: var(--sixthColor);
+    opacity: 1;
+  }
+  100% {
+    border-color: var(--primaryColor);
+    opacity: 1;
   }
 }
 
