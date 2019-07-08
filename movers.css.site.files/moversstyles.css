@@ -72,6 +72,7 @@ body {
           animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  color: var(--primaryColor);
 }
 
 .navSpecial:hover {
@@ -83,6 +84,7 @@ body {
           animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  color: var(--primaryColor);
 }
 
 .navExit:hover {
@@ -94,6 +96,7 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  color: var(--primaryColor);
 }
 
 
