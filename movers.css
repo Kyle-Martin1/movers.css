@@ -1718,7 +1718,88 @@
 
 
 /**********************************************
+@-webkit-keyframes rocking {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  30% {
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+  45% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  60% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  75% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  90% {
 
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes rocking {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  30% {
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+  }
+  45% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  60% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  75% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  90% {
+
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.selector {
+  -webkit-animation-name: rocking;
+          animation-name: rocking;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
 *********************************************/
 
 
