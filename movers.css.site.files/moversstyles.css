@@ -19,6 +19,7 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -35,6 +36,7 @@ body {
   -webkit-box-align: center;
   align-items: center;
   overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 /****************** Nav bar **********/
@@ -174,7 +176,7 @@ h1 {
 
 
 
-/****************** Arrow **********/
+/****************** Arrows **********/
 
 .downArrow {
   box-sizing: border-box;
@@ -198,6 +200,22 @@ h1 {
           animation-delay: 5s;
 }
 
+#toTopArrow {
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border-style: solid;
+  border-color: var(--primaryColor);
+  display: block;
+  position: absolute;
+  border-width: 0px 4px 4px 0px;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  z-index: 100;
+  bottom: 15px;
+  right: 20px;
+}
 
 
 /****************** How to use section **********/
@@ -324,7 +342,8 @@ li span {
   }
 }
 
-.navBarContainer {
+.navBarContainer,
+.toTopArrow {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
   -webkit-animation-duration: 2s;
