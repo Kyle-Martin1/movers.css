@@ -74,11 +74,16 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                   | `Exit right`          |
 |                   | `Exit left`           |
 |                   | `Fade out`            |
-| Other Animations  |                       |
-|                   | `Shake`               |
+| Special Animations|                       |
+|                   | `Shake horizontal`    |
+|                   | `Shake vertical`      |
+|                   | `Mad shake`           |
 |                   | `Swing right`         |
 |                   | `Swing left`          |
 |                   | `Color Shift`         |
+|                   | `Shape shift 1`       |
+|                   | `Pendulum`            |
+|                   | `Rocking`             |
 
 
 <br>
