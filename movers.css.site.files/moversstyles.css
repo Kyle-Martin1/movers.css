@@ -37,6 +37,43 @@ body {
   overflow-x: hidden;
 }
 
+/****************** Nav bar **********/
+
+.navBarContainer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  min-height: 100px;
+  min-width: 100vw;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.navBarContainer a {
+  color: var(--sixthColor);
+  margin: 0px 20px 0px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.navEntry:hover {
+  -webkit-animation-name: shake;
+          animation-name: shake;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+
+
 
 /****************** Header and see more section **********/
 
@@ -206,8 +243,6 @@ li span {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
-
 
 /****************** Animation examples **********/
 
@@ -511,6 +546,14 @@ li span {
     color: var(--primaryColor);
     font-family: 'Oswald', 'Roboto', sans-serif;
     margin: 0;
+  }
+
+  .navBarContainer a {
+    font-size: 16px;
+  }
+
+  .navBarContainer {
+    margin: 40px 0px 0px 0px;
   }
 }
 
