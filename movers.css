@@ -1211,7 +1211,7 @@
 /***********************  Other Animations ***********************/
 
 /**********************************************
-@-webkit-keyframes shake {
+@-webkit-keyframes shakeHorizontal {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1266,8 +1266,77 @@
 }
 
 .selector {
-  -webkit-animation-name: shake;
-          animation-name: shake;
+  -webkit-animation-name: shakeHorizontal;
+          animation-name: shakeHorizontal;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+*********************************************/
+
+
+
+
+
+/**********************************************
+@-webkit-keyframes shakeVertical {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  40% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  60% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  80% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes shakeVertical {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  40% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  60% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  80% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.selector {
+  -webkit-animation-name: shakeVertical;
+          animation-name: shakeVertical;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
   -webkit-animation-timing-function: linear;
@@ -1434,5 +1503,66 @@
 
 
 /**********************************************
+@-webkit-keyframes shakeVertical {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  40% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  60% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  80% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
 
+@keyframes shakeVertical {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  20% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  40% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  60% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  80% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.selector {
+  -webkit-animation-name: shakeVertical;
+          animation-name: shakeVertical;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
 *********************************************/
