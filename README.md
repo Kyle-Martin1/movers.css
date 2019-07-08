@@ -42,6 +42,8 @@ Then change `.selector` to the `element`, `#id` or `.class` of the item you woul
 
 Each animation can be customised and tweaked by changing the CSS properties such as `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count`, `animation-fill-mode` etc. You can also tweak colours, border-colours and anything else within your own stylesheet to truly customise your work.
 
+**Due to the number of animations included and the size of the `movers.css` file, i recommend only adding the code for the animations that you wish to use to maximise performance and minimise any impact on loading time from an extra css file.**
+
 <h2 align="center">Animations list</h2>
 
 | Animations list   |                       |
