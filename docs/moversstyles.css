@@ -629,7 +629,7 @@ li span {
   }
 
   .navBarContainer {
-    margin: 40px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
   }
 }
 
@@ -639,6 +639,10 @@ li span {
     color: var(--primaryColor);
     font-family: 'Oswald', 'Roboto', sans-serif;
     margin: 0;
+  }
+
+  .navBarContainer {
+    margin: 10px 0px 0px 0px;
   }
 }
 
