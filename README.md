@@ -2,6 +2,8 @@
 
 `movers.css` is a collection of CSS based animations designed to make life easier! Please see below for a full list of current animations and a guide on how to use the library and add the animations to your own code.
 
+This library is currently still a work in progress so please continue to check back for updates and new animations.
+
 <h2 align="center">How to use</h2>
 To use any animation from the collection copy the code into your CSS file such as in the example below:
 
