@@ -629,7 +629,7 @@ li span {
   }
 
   .navBarContainer a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .navBarContainer {
@@ -647,6 +647,10 @@ li span {
 
   .header {
     padding-top: 5px;
+  }
+
+  .navBarContainer a {
+    font-size: 14px;
   }
 
   .navBarContainer {
