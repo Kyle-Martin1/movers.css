@@ -87,6 +87,9 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                   | `Shape shift 1`       |
 |                   | `Pendulum`            |
 |                   | `Rocking`             |
+|                   | `Elastic 1`           |
+|                   | `Elastic 2`           |
+|                   | `Suprise`             |
 
 
 <br>
