@@ -1,5 +1,7 @@
 <h2 align="center">CSS-Animations</h2>
 
+![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-Green.svg) [![Chat](https://img.shields.io/badge/Chat-Gitter-Purple.svg)](https://gitter.im/movers-css/community)
+
 `movers.css` is a collection of CSS based animations designed to make life easier! Please see below for a full list of current animations and a guide on how to use the library and add the animations to your own code.
 
 This library is currently still a work in progress so please continue to check back for updates and new animations.
