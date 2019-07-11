@@ -1,4 +1,4 @@
-<h2 align="center">CSS-Animations</h2>
+<h2 align="center">Movers.css - CSS-Animations library</h2>
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-Green.svg) [![Chat](https://img.shields.io/badge/Chat-Gitter-Purple.svg)](https://gitter.im/movers-css/community)
 
