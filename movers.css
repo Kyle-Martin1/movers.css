@@ -1,6 +1,8 @@
 /***********************  Entry Animations ***********************/
 
 /**********************************************
+.fadeIn
+*********************************************/
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -19,7 +21,7 @@
   }
 }
 
-.selector {
+.fadeIn {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
   -webkit-animation-duration: 2s;
@@ -29,13 +31,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterTop
+*********************************************/
 @-webkit-keyframes enterTop {
   0% {
     -webkit-transform: translateY(-300px);
@@ -62,7 +62,7 @@
   }
 }
 
-.selector {
+.enterTop {
   -webkit-animation-name: enterTop;
           animation-name: enterTop;
   -webkit-animation-duration: 1s;
@@ -72,13 +72,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterBottom
+*********************************************/
 @-webkit-keyframes enterBottom {
   0% {
     -webkit-transform: translateY(300px);
@@ -105,7 +103,7 @@
   }
 }
 
-.selector {
+.enterBottom {
   -webkit-animation-name: enterBottom;
           animation-name: enterBottom;
   -webkit-animation-duration: 1s;
@@ -115,13 +113,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterRight
+*********************************************/
 @-webkit-keyframes enterRight {
   0% {
     -webkit-transform: translateX(300px);
@@ -148,7 +144,7 @@
   }
 }
 
-.selector {
+.enterRight {
   -webkit-animation-name: enterRight;
           animation-name: enterRight;
   -webkit-animation-duration: 1s;
@@ -158,13 +154,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterLeft
+*********************************************/
 @-webkit-keyframes enterLeft {
   0% {
     -webkit-transform: translateX(-300px);
@@ -191,7 +185,7 @@
   }
 }
 
-.selector {
+.enterLeft {
   -webkit-animation-name: enterLeft;
           animation-name: enterLeft;
   -webkit-animation-duration: 1s;
@@ -201,13 +195,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+rotateClockwise
+*********************************************/
 @-webkit-keyframes rotateClockwise {
   0% {
     -webkit-transform: rotate(0deg);
@@ -244,7 +236,7 @@
   }
 }
 
-.selector {
+.rotateClockwise {
   -webkit-animation-name: rotateClockwise;
           animation-name: rotateClockwise;
   -webkit-animation-duration: 1s;
@@ -254,13 +246,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+rotateAntiClockwise
+*********************************************/
 @-webkit-keyframes rotateAntiClockwise {
   0% {
     -webkit-transform: rotate(0deg);
@@ -297,7 +287,7 @@
   }
 }
 
-.selector {
+.rotateAntiClockwise {
   -webkit-animation-name: rotateAntiClockwise;
           animation-name: rotateAntiClockwise;
   -webkit-animation-duration: 1s;
@@ -307,13 +297,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+shrinkAndFadeIn
+*********************************************/
 @-webkit-keyframes shrinkAndFadeIn {
   0% {
     -webkit-transform: scale(3);
@@ -350,7 +338,7 @@
   }
 }
 
-.selector {
+.shrinkAndFadeIn {
   -webkit-animation-name: shrinkAndFadeIn;
           animation-name: shrinkAndFadeIn;
   -webkit-animation-duration: 1s;
@@ -360,13 +348,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+growAndFadeIn
+*********************************************/
 @-webkit-keyframes growAndFadeIn {
   0% {
     -webkit-transform: scale(0.2);
@@ -403,7 +389,7 @@
   }
 }
 
-.selector {
+.growAndFadeIn {
   -webkit-animation-name: growAndFadeIn;
           animation-name: growAndFadeIn;
   -webkit-animation-duration: 1s;
@@ -413,13 +399,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+flip
+*********************************************/
 @-webkit-keyframes flip {
   0% {
     -webkit-transform: rotateX(180deg);
@@ -446,7 +430,7 @@
   }
 }
 
-.selector {
+.flip {
   -webkit-animation-name: flip;
           animation-name: flip;
   -webkit-animation-duration: 1s;
@@ -456,13 +440,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+flipAlternate
+*********************************************/
 @-webkit-keyframes flipAlternate {
   0% {
     -webkit-transform: rotateY(180deg);
@@ -489,7 +471,7 @@
   }
 }
 
-.selector {
+.flipAlternate {
   -webkit-animation-name: flipAlternate;
           animation-name: flipAlternate;
   -webkit-animation-duration: 1s;
@@ -499,13 +481,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+hingeUpLeft
+*********************************************/
 @-webkit-keyframes hingeUpLeft {
   0% {
     -webkit-transform: rotate(90deg);
@@ -532,7 +512,7 @@
   }
 }
 
-.selector {
+.hingeUpLeft {
   -webkit-animation-name: hingeUpLeft;
           animation-name: hingeUpLeft;
   -webkit-animation-duration: 0.6s;
@@ -544,13 +524,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+hingeUpRight
+*********************************************/
 @-webkit-keyframes hingeUpRight {
   0% {
     -webkit-transform: rotate(-90deg);
@@ -577,7 +555,7 @@
   }
 }
 
-.selector {
+.hingeUpRight {
   -webkit-animation-name: hingeUpRight;
           animation-name: hingeUpRight;
   -webkit-animation-duration: 0.6s;
@@ -589,13 +567,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+hingeDownRight
+*********************************************/
 @-webkit-keyframes hingeDownRight {
   0% {
     -webkit-transform: rotate(90deg);
@@ -622,7 +598,7 @@
   }
 }
 
-.selector {
+.hingeDownRight {
   -webkit-animation-name: hingeDownRight;
           animation-name: hingeDownRight;
   -webkit-animation-duration: 0.6s;
@@ -634,13 +610,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+hingeDownLeft
+*********************************************/
 @-webkit-keyframes hingeDownLeft {
   0% {
     -webkit-transform: rotate(-90deg);
@@ -667,7 +641,7 @@
   }
 }
 
-.selector {
+.hingeDownLeft {
   -webkit-animation-name: hingeDownLeft;
           animation-name: hingeDownLeft;
   -webkit-animation-duration: 0.6s;
@@ -679,13 +653,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterTopLeft
+*********************************************/
 @-webkit-keyframes enterTopLeft {
   0% {
     -webkit-transform: translateX(-300px) translateY(-300px);
@@ -712,7 +684,7 @@
   }
 }
 
-.selector {
+.enterTopLeft {
   -webkit-animation-name: enterTopLeft;
           animation-name: enterTopLeft;
   -webkit-animation-duration: 1s;
@@ -722,13 +694,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterBottomRight
+*********************************************/
 @-webkit-keyframes enterBottomRight {
   0% {
     -webkit-transform: translateX(300px) translateY(300px);
@@ -755,7 +725,7 @@
   }
 }
 
-.selector {
+.enterBottomRight {
   -webkit-animation-name: enterBottomRight;
           animation-name: enterBottomRight;
   -webkit-animation-duration: 1s;
@@ -765,13 +735,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+enterTopRight
+*********************************************/
 @-webkit-keyframes enterTopRight {
   0% {
     -webkit-transform: translateX(300px) translateY(-300px);
@@ -798,7 +766,7 @@
   }
 }
 
-.selector {
+.enterTopRight {
   -webkit-animation-name: enterTopRight;
           animation-name: enterTopRight;
   -webkit-animation-duration: 1s;
@@ -808,14 +776,11 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
-
 
 
 /**********************************************
+enterBottomLeft
+*********************************************/
 @-webkit-keyframes enterBottomLeft {
   0% {
     -webkit-transform: translateX(-300px) translateY(300px);
@@ -842,7 +807,7 @@
   }
 }
 
-.selector {
+.enterBottomLeft {
   -webkit-animation-name: enterBottomLeft;
           animation-name: enterBottomLeft;
   -webkit-animation-duration: 1s;
@@ -852,38 +817,13 @@
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-
-
-
-
-
 
 
 /***********************  Exit Animations ***********************/
 
 /**********************************************
+exitTop
+*********************************************/
 @-webkit-keyframes exitTop {
   0% {
     -webkit-transform: translateY(0px);
@@ -930,7 +870,7 @@
   }
 }
 
-.selector {
+.exitTop {
   -webkit-animation-name: exitTop;
           animation-name: exitTop;
   -webkit-animation-duration: 2s;
@@ -940,13 +880,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+exitBottom
+*********************************************/
 @-webkit-keyframes exitBottom {
   0% {
     -webkit-transform: translateY(0px);
@@ -993,7 +931,7 @@
   }
 }
 
-.selector {
+.exitBottom {
   -webkit-animation-name: exitBottom;
           animation-name: exitBottom;
   -webkit-animation-duration: 2s;
@@ -1003,13 +941,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+exitRight
+*********************************************/
 @-webkit-keyframes exitRight {
   0% {
     -webkit-transform: translateX(0px);
@@ -1056,7 +992,7 @@
   }
 }
 
-.selector {
+.exitRight {
   -webkit-animation-name: exitRight;
           animation-name: exitRight;
   -webkit-animation-duration: 2s;
@@ -1066,13 +1002,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+exitLeft
+*********************************************/
 @-webkit-keyframes exitLeft {
   0% {
     -webkit-transform: translateX(0px);
@@ -1119,7 +1053,7 @@
   }
 }
 
-.selector {
+.exitLeft {
   -webkit-animation-name: exitLeft;
           animation-name: exitLeft;
   -webkit-animation-duration: 2s;
@@ -1129,15 +1063,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
-
-
 
 
 /**********************************************
+fadeOut
+*********************************************/
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;
@@ -1156,7 +1086,7 @@
   }
 }
 
-.selector {
+.fadeOut {
   -webkit-animation-name: fadeOut;
           animation-name: fadeOut;
   -webkit-animation-duration: 2s;
@@ -1166,51 +1096,12 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***********************  Special Animations ***********************/
 
 /**********************************************
+shakeHorizontal
+*********************************************/
 @-webkit-keyframes shakeHorizontal {
   0% {
     -webkit-transform: translateX(0px);
@@ -1238,7 +1129,7 @@
   }
 }
 
-@keyframes shake {
+@keyframes shakeHorizontal {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1265,7 +1156,7 @@
   }
 }
 
-.selector {
+.shakeHorizontal {
   -webkit-animation-name: shakeHorizontal;
           animation-name: shakeHorizontal;
   -webkit-animation-duration: 0.5s;
@@ -1273,13 +1164,11 @@
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+shakeVertical
+*********************************************/
 @-webkit-keyframes shakeVertical {
   0% {
     -webkit-transform: translateY(0px);
@@ -1334,7 +1223,7 @@
   }
 }
 
-.selector {
+.shakeVertical {
   -webkit-animation-name: shakeVertical;
           animation-name: shakeVertical;
   -webkit-animation-duration: 0.5s;
@@ -1342,13 +1231,11 @@
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+swingRight
+*********************************************/
 @-webkit-keyframes swingRight {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1371,7 +1258,7 @@
   }
 }
 
-.selector {
+.swingRight {
   -webkit-animation-name: swingRight;
           animation-name: swingRight;
   -webkit-animation-duration: 1s;
@@ -1383,13 +1270,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+swingLeft
+*********************************************/
 @-webkit-keyframes swingLeft {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1412,7 +1297,7 @@
   }
 }
 
-.selector {
+.swingLeft {
   -webkit-animation-name: swingLeft;
           animation-name: swingLeft;
   -webkit-animation-duration: 1s;
@@ -1424,14 +1309,12 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
-@-webkit-keyframes colorShift {
+fontColorShift
+*********************************************/
+@-webkit-keyframes fontColorShift {
   0% {
     color: #03132c;
     opacity: 1;
@@ -1458,8 +1341,7 @@
   }
 }
 
-
-@keyframes colorShift {
+@keyframes fontColorShift {
   0% {
     color: #03132c;
     opacity: 1;
@@ -1486,9 +1368,9 @@
   }
 }
 
-.selector {
-  -webkit-animation-name: colorShift;
-          animation-name: colorShift;
+.fontColorShift {
+  -webkit-animation-name: fontColorShift;
+          animation-name: fontColorShift;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-duration: 5s;
@@ -1496,82 +1378,11 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
-@-webkit-keyframes shakeVertical {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  20% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
-  }
-  40% {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  60% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
-  }
-  80% {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
-@keyframes shakeVertical {
-  0% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-  20% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
-  }
-  40% {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  60% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
-  }
-  80% {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
-.selector {
-  -webkit-animation-name: shakeVertical;
-          animation-name: shakeVertical;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
+shapeShift1
 *********************************************/
-
-
-
-
-
-/**********************************************
 @-webkit-keyframes shapeShift1 {
   0% {
     -webkit-transform: scale(100%);
@@ -1614,7 +1425,7 @@
   }
 }
 
-.selector {
+.shapeShift1 {
   -webkit-animation-name: shapeShift1;
           animation-name: shapeShift1;
   -webkit-animation-duration: 3s;
@@ -1622,13 +1433,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+pendulum
+*********************************************/
 @-webkit-keyframes pendulum {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1701,7 +1510,7 @@
   }
 }
 
-.selector {
+.pendulum {
   -webkit-animation-name: pendulum;
           animation-name: pendulum;
   -webkit-animation-duration: 3s;
@@ -1711,13 +1520,11 @@
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+rocking
+*********************************************/
 @-webkit-keyframes rocking {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1790,7 +1597,7 @@
   }
 }
 
-.selector {
+.rocking {
   -webkit-animation-name: rocking;
           animation-name: rocking;
   -webkit-animation-duration: 3s;
@@ -1800,13 +1607,11 @@
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+madShake
+*********************************************/
 @-webkit-keyframes madShake {
   0% {
             -webkit-transform: translate(3px, 9px);
@@ -2221,7 +2026,7 @@
   }
 }
 
-.selector {
+.madShake {
   -webkit-animation-name: madShake;
           animation-name: madShake;
   -webkit-animation-duration: 3s;
@@ -2233,13 +2038,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+giantFadeExit
+*********************************************/
 @-webkit-keyframes giantFadeExit {
   0% {
     opacity: 1;
@@ -2272,7 +2075,7 @@
   }
 }
 
-.selector {
+.giantFadeExit {
   -webkit-animation-name: giantFadeExit;
           animation-name: giantFadeExit;
   -webkit-animation-duration: 4s;
@@ -2282,13 +2085,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+elastic1
+*********************************************/
 @-webkit-keyframes elastic1 {
   0% {
     -webkit-transform: translateY(0px);
@@ -2383,7 +2184,7 @@
   }
 }
 
-.selector {
+.elastic1 {
   -webkit-animation-name: elastic1;
           animation-name: elastic1;
   -webkit-animation-duration: 2s;
@@ -2393,13 +2194,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+elastic2
+*********************************************/
 @-webkit-keyframes elastic2 {
   0% {
     -webkit-transform: translateX(0px);
@@ -2494,7 +2293,7 @@
   }
 }
 
-.selector {
+.elastic2 {
   -webkit-animation-name: elastic2;
           animation-name: elastic2;
   -webkit-animation-duration: 2s;
@@ -2504,13 +2303,11 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
 
 
 /**********************************************
+suprise
+*********************************************/
 @-webkit-keyframes suprise {
   0% {
     -webkit-transform: scale(1);
@@ -2627,7 +2424,7 @@
   }
 }
 
-.selector {
+.suprise {
   -webkit-animation-name: suprise;
           animation-name: suprise;
   -webkit-animation-duration: 1.8s;
@@ -2637,20 +2434,3 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
-
-
-
-
-
-/**********************************************
-
-*********************************************/
