@@ -109,7 +109,7 @@ body {
   background-color: var(--secondaryColor);
   min-width: 100vw;
   padding: 45px 45px 0px 45px;
-  min-height: 50vh;
+  min-height: 35vh;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -226,7 +226,7 @@ h1 {
 .howToUse {
   background: var(--secondaryColor);
   min-width: 100vw;
-  min-height: 540px;
+  min-height: 775px;
   margin: 20px;
 }
 
@@ -549,7 +549,7 @@ li span {
   }
 }
 
-.intoAnimation2 {
+.introAnimation2 {
   -webkit-animation-name: hingeUpRight;
           animation-name: hingeUpRight;
   -webkit-animation-duration: 0.8s;
@@ -1858,6 +1858,73 @@ li span {
 .colorShift {
   -webkit-animation-name: colorShift;
           animation-name: colorShift;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*************/
+
+@-webkit-keyframes fontColorShift {
+  0% {
+    color: #03132c;
+    opacity: 1;
+  }
+  20% {
+    color: #2cb6b9;
+    opacity: 1;
+  }
+  40% {
+    color: #fad06a;
+    opacity: 1;
+  }
+  60% {
+    color: #d9428a;
+    opacity: 1;
+  }
+  80% {
+    color: #5a719b;
+    opacity: 1;
+  }
+  100% {
+    color: #03132c;
+    opacity: 1;
+  }
+}
+
+@keyframes fontColorShift {
+  0% {
+    color: #03132c;
+    opacity: 1;
+  }
+  20% {
+    color: #2cb6b9;
+    opacity: 1;
+  }
+  40% {
+    color: #fad06a;
+    opacity: 1;
+  }
+  60% {
+    color: #d9428a;
+    opacity: 1;
+  }
+  80% {
+    color: #5a719b;
+    opacity: 1;
+  }
+  100% {
+    color: #03132c;
+    opacity: 1;
+  }
+}
+
+.fontColorShift {
+  -webkit-animation-name: fontColorShift;
+          animation-name: fontColorShift;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-duration: 5s;
