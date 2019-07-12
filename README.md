@@ -19,13 +19,13 @@ First clone the library from GitHub
 git clone https://github.com/Kyle-Martin1/movers.css.git
 ```
 Then link the `movers.css` file in the head of your HTML
-```
+```html
 <head>
   <link href="../movers.css/movers.css" rel="stylesheet">
 </head>
 ```
 Add the animation class to the element you wish to animate
-```
+```html
 <div class="helloWorldContainer fadeIn">
   <p>Hello World</p>
 </div>
@@ -37,7 +37,7 @@ Enjoy the animations!
 
 The other way to use any animation from the library is to copy the code into your CSS file such as in the example below:
 
-```
+```css
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
