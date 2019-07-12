@@ -7,91 +7,120 @@
 This library is currently still a work in progress so please continue to check back for updates and new animations.
 
 <h2 align="center">How to use</h2>
-To use any animation from the collection copy the code into your CSS file such as in the example below:
 
-```css
-@-webkit-keyframes enterRight {
+There are two main ways to use the `movers.css` library:
+- Clone the library and link to your HTML
+- Copy the code from the library and insert into your HTML
+
+<h2 align="center">Clone</h2>
+
+First clone the library from GitHub
+```
+git clone https://github.com/Kyle-Martin1/movers.css.git
+```
+Then link the `movers.css` file in the head of your HTML
+```
+<head>
+  <link href="../movers.css/movers.css" rel="stylesheet">
+</head>
+```
+Add the animation class to the element you wish to animate
+```
+<div class="helloWorldContainer fadeIn">
+  <p>Hello World</p>
+</div>
+```
+Enjoy the animations!
+<br>
+
+<h2 align="center">Copy</h2>
+
+The other way to use any animation from the library is to copy the code into your CSS file such as in the example below:
+
+```
+@-webkit-keyframes fadeIn {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    opacity: 1;
   }
 }
 
-@keyframes enterRight {
+@keyframes fadeIn {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    opacity: 1;
   }
 }
 
-.selector {
-  -webkit-animation-name: enterRight;
-          animation-name: enterRight;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
-          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 ```
 
-Then change `.selector` to the `element`, `#id` or `.class` of the item you would like to animate.
+Then add the animation class (e.g `.fadeIn`) to the `element` of the item you would like to animate.
+
+<h2 align="center">Customisation</h2>
 
 Each animation can be customised and tweaked by changing the CSS properties such as `animation-duration`, `animation-timing-function`, `animation-delay`, `animation-iteration-count`, `animation-fill-mode` etc. You can also tweak colours, border-colours and anything else within your own stylesheet to truly customise your work.
 
-**Due to the number of animations included and the size of the `movers.css` file, i recommend only adding the code for the animations that you wish to use to maximise performance and minimise any impact on loading time from an extra css file.**
+<br>
 
 <h2 align="center">Animations list</h2>
 
-| Animations list   |                       |
-| ----------------- | ----------------------|
-| Entry Animations  |                       |
-|                   | `Fade in`             |
-|                   | `Enter from top`      |
-|                   | `Enter from bottom`   |
-|                   | `Enter from right`    |
-|                   | `Enter from left`     |
-|                   | `Rotate clockwise`    |
-|                   | `Rotate anticlockwise`|
-|                   | `Shrink and fade in`  |
-|                   | `Grow and fade in`    |
-|                   | `Flip`                |
-|                   | `Flip alternate`      |
-|                   | `Hinge up left`       |
-|                   | `Hinge up right`      |
-|                   | `Hinge down right`    |
-|                   | `Hinge down left`     |
-|                   | `Enter top left`      |
-|                   | `Enter top right`     |
-|                   | `Enter bottom left`   |
-|                   | `Enter bottom right`  |
-| Exit Animations   |                       |
-|                   | `Exit top`            |
-|                   | `Exit bottom`         |
-|                   | `Exit right`          |
-|                   | `Exit left`           |
-|                   | `Fade out`            |
-|                   | `Giant fade exit`     |
-| Special Animations|                       |
-|                   | `Shake horizontal`    |
-|                   | `Shake vertical`      |
-|                   | `Mad shake`           |
-|                   | `Swing right`         |
-|                   | `Swing left`          |
-|                   | `Color Shift`         |
-|                   | `Shape shift 1`       |
-|                   | `Pendulum`            |
-|                   | `Rocking`             |
-|                   | `Elastic 1`           |
-|                   | `Elastic 2`           |
-|                   | `Suprise`             |
+| Animations Class list   |                             |
+| ----------------------- | ----------------------------|
+| Entry Animations        |                             |
+|                         | `.fadeIn`                   |
+|                         | `.enterTop`                 |
+|                         | `.enterBottom`              |
+|                         | `.enterRight`               |
+|                         | `.enterLeft`                |
+|                         | `.rotateClockwise`          |
+|                         | `.rotateAntiClockwise`      |
+|                         | `.shrinkAndFadeIn`          |
+|                         | `.growAndFadeIn`            |
+|                         | `.flip`                     |
+|                         | `.flipAlternate`            |
+|                         | `.hingeUpLeft`              |
+|                         | `.hingeUpRight`             |
+|                         | `.hingeDownRight`           |
+|                         | `.hingeDownLeft`            |
+|                         | `.enterTopLeft`             |
+|                         | `.enterTopRight`            |
+|                         | `.enterTottomLeft`          |
+|                         | `.enterBottomRight`         |
+| Exit Animations         |                             |
+|                         | `.exitTop`                  |
+|                         | `.exitBottom`               |
+|                         | `.exitRight`                |
+|                         | `.exitLeft`                 |
+|                         | `.fadeOut`                  |
+|                         | `.giantFadeExit`            |
+| Special Animations      |                             |
+|                         | `.shakeHorizontal`          |
+|                         | `.shakeVertical`            |
+|                         | `.madShake`                 |
+|                         | `.swingRight`               |
+|                         | `.swingLeft`                |
+|                         | `.fontColorShift`           |
+|                         | `.bgColorShift`             |
+|                         | `.shapeShift1`              |
+|                         | `.pendulum`                 |
+|                         | `.rocking`                  |    
+|                         | `.elastic1`                 |
+|                         | `.elastic2`                 |
+|                         | `.suprise`                  | 
 
 
 <br>
