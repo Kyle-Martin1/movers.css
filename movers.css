@@ -1097,6 +1097,53 @@ fadeOut
           animation-fill-mode: forwards;
 }
 
+
+/**********************************************
+giantFadeExit
+*********************************************/
+@-webkit-keyframes giantFadeExit {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  70% {
+    opacity: 0;
+    -webkit-transform: scale(6);
+            transform: scale(6);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes giantFadeExit {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  70% {
+    opacity: 0;
+    -webkit-transform: scale(6);
+            transform: scale(6);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.giantFadeExit {
+  -webkit-animation-name: giantFadeExit;
+          animation-name: giantFadeExit;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 /***********************  Special Animations ***********************/
 
 /**********************************************
@@ -2104,53 +2151,6 @@ madShake
           transform-origin: bottom center;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-
-/**********************************************
-giantFadeExit
-*********************************************/
-@-webkit-keyframes giantFadeExit {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  70% {
-    opacity: 0;
-    -webkit-transform: scale(6);
-            transform: scale(6);
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes giantFadeExit {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  70% {
-    opacity: 0;
-    -webkit-transform: scale(6);
-            transform: scale(6);
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.giantFadeExit {
-  -webkit-animation-name: giantFadeExit;
-          animation-name: giantFadeExit;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
