@@ -1381,6 +1381,75 @@ fontColorShift
 
 
 /**********************************************
+bgColorShift
+*********************************************/
+@-webkit-keyframes bgColorShift {
+  0% {
+    background-color: #03132c;
+    opacity: 1;
+  }
+  20% {
+    background-color: #2cb6b9;
+    opacity: 1;
+  }
+  40% {
+    background-color: #fad06a;
+    opacity: 1;
+  }
+  60% {
+    background-color: #d9428a;
+    opacity: 1;
+  }
+  80% {
+    background-color: #5a719b;
+    opacity: 1;
+  }
+  100% {
+    background-color: #03132c;
+    opacity: 1;
+  }
+}
+
+@keyframes bgColorShift {
+  0% {
+    background-color: #03132c;
+    opacity: 1;
+  }
+  20% {
+    background-color: #2cb6b9;
+    opacity: 1;
+  }
+  40% {
+    background-color: #fad06a;
+    opacity: 1;
+  }
+  60% {
+    background-color: #d9428a;
+    opacity: 1;
+  }
+  80% {
+    background-color: #5a719b;
+    opacity: 1;
+  }
+  100% {
+    background-color: #03132c;
+    opacity: 1;
+  }
+}
+
+.bgColorShift {
+  -webkit-animation-name: bgColorShift;
+          animation-name: bgColorShift;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+
+/*******************************************
 shapeShift1
 *********************************************/
 @-webkit-keyframes shapeShift1 {
