@@ -107,6 +107,9 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                         | `.exitLeft`                 |
 |                         | `.fadeOut`                  |
 |                         | `.giantFadeExit`            |
+|                         | `.shrinkExit`               |
+|                         | `.spinExit`                 |
+|                         | `.spinShrinkExit`           |
 | Special Animations      |                             |
 |                         | `.shakeHorizontal`          |
 |                         | `.shakeVertical`            |
