@@ -23,7 +23,8 @@ html {
 }
 
 body {
-  background: var(--secondaryColor);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(26%, rgba(20,31,52,1)), to(rgba(8,15,28,1)));
+  background: linear-gradient(180deg, rgba(20,31,52,1) 26%, rgba(8,15,28,1) 100%);
   height: 100vh;
   min-width: 100vw;
   margin: 0;
@@ -106,7 +107,6 @@ body {
 
 .header {
   text-align: center;
-  background-color: var(--secondaryColor);
   min-width: 100vw;
   padding: 45px 45px 0px 45px;
   min-height: 35vh;
@@ -145,7 +145,6 @@ h1 {
 }
 
 .moreInfo {
-  background: var(--secondaryColor);
   width: 100vw;
   min-height: 20vh;
   margin: 0;
@@ -224,7 +223,6 @@ h1 {
 /****************** How to use section **********/
 
 .howToUse {
-  background: var(--secondaryColor);
   min-width: 100vw;
   min-height: 775px;
   margin: 20px;
@@ -294,7 +292,6 @@ li span {
 }
 
 .animationExamples .animationExamplesContainer {
-  background: var(--secondaryColor);
   min-width: 100vw;
   min-height: 80vh;
   display: -webkit-box;
