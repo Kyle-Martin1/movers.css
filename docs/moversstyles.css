@@ -292,8 +292,8 @@ li span {
 }
 
 .animationExamples .animationExamplesContainer {
-  min-width: 100vw;
-  min-height: 80vh;
+  min-width: 70vw;
+  min-height: 70vh;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
