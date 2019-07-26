@@ -38,6 +38,7 @@ body {
   align-items: center;
   overflow-x: hidden;
   scroll-behavior: smooth !important;
+  cursor: none;
 }
 
 /****************** Nav bar **********/
@@ -176,6 +177,77 @@ h1 {
   font-size: 1.2rem;
 }
 
+/****************** Cursor **********/
+
+.cursor {
+  height: 7px;
+  width: 7px;
+  background: var(--thirdColor);
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  -webkit-animation-name: cursor;
+          animation-name: cursor;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+#cursorOuter {
+  height: 20px;
+  width: 20px;
+  border: var(--fifthColor) solid 1px;
+  border-radius: 25%;
+  background: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  z-index: -1;
+}
+
+@-webkit-keyframes cursor {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes cursor{
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+    opacity: 1;
+  }
+}
 
 
 /****************** Arrows **********/
@@ -260,7 +332,6 @@ h1 {
 }
 
 .howToUseList {
-  list-style: none;
   margin: 30px 20px 20px 20px;
   line-height: 1.8rem;
   color: var(--sixthColor);
