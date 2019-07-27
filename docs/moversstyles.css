@@ -43,11 +43,9 @@ body {
   cursor: none;
 }
 
-/**************************************** Hero Page Container ****************************************/
+/**************************************** Hero Page Animation ****************************************/
 
-.heroPage {
-  height: 100vh;
-  width: 100vw;
+.heroPageAnimation {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -57,18 +55,10 @@ body {
           align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
-}
-
-/**************************************** Hero Page Animation ****************************************/
-
-.heroPageAnimation {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
   position: absolute;
   z-index: -3;
+  height: 100vh;
+  width: 100vw;
 }
 
 .heroPageAnimationOuter {
@@ -114,9 +104,8 @@ body {
 .header {
   text-align: center;
   min-width: 100vw;
-  margin-top: 25vh;
-  padding: 45px 45px 0px 45px;
-  min-height: 35vh;
+  min-height: 100vh;
+  padding: 0px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -136,7 +125,7 @@ body {
   z-index: 5;
 }
 
-.header p {
+.subheader {
   color: var(--sixthColor);
   width: 100vw;
   text-transform: lowercase;
@@ -168,8 +157,6 @@ body {
 }
 
 .moreInfo {
-  margin-top: 15px;
-  padding: 0px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: horizontal;
@@ -241,7 +228,7 @@ body {
   border-width: 0px 4px 4px 0px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  margin: 15vh;
+  margin-top: -10vh;
   margin-bottom: 25vh;
   -webkit-animation-name: colorChange;
           animation-name: colorChange;
@@ -265,7 +252,7 @@ body {
   border-style: solid;
   border-color: black;
   display: block;
-  position: absolute;
+  position: fixed;
   border-width: 0px 4px 4px 0px;
   -webkit-transform: rotate(225deg);
           transform: rotate(225deg);
@@ -288,19 +275,16 @@ body {
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  z-index: -2;
 }
 
 .animationExamples {
   margin-top: 20px;
-  z-index: -2;
 }
 
 .animationExamples .animationExamplesContainer {
   min-width: 70vw;
   min-height: 70vh;
   color: var(--animationTextColor);
-  z-index: -2;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -316,7 +300,6 @@ body {
   background-color: var(--primaryColor);
   width: 100px;
   height: 100px;
-  z-index: -2;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
