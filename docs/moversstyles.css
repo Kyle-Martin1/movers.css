@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
 
+/**************************************** Root, Body and HTML ****************************************/
 
 :root {
   font-family: 'Oswald', 'Roboto' ,sans-serif;
-  --primaryColor: #ffffff;
-  --secondaryColor: #080f1c;
-  --thirdColor: #d9428a;
-  --fourthColor: #fad06a;
-  --fifthColor: #2cb6b9;
-  --sixthColor: #5a719b;
-  font-size: 18px
+  --primaryColor: #EAF2E3;
+  --secondaryColor: #FFCE38;
+  --thirdColor: #2ba64f;
+  --fourthColor: #d9428a;
+  --fifthColor: #f32a26;
+  --sixthColor: #041B15;
+  --animationTextColor: #000000;
+  font-size: 18px;
 }
+
 
 html {
   height: 100vh;
@@ -23,8 +26,7 @@ html {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(26%, rgba(20,31,52,1)), to(rgba(8,15,28,1)));
-  background: linear-gradient(180deg, rgba(20,31,52,1) 26%, rgba(8,15,28,1) 100%);
+  background: var(--secondaryColor);
   height: 100vh;
   min-width: 100vw;
   margin: 0;
@@ -41,74 +43,78 @@ body {
   cursor: none;
 }
 
-/****************** Nav bar **********/
+/**************************************** Hero Page Container ****************************************/
 
-.navBarContainer {
+.heroPage {
+  height: 100vh;
+  width: 100vw;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: row;
-  min-height: 100px;
-  min-width: 100vw;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+/**************************************** Hero Page Animation ****************************************/
+
+.heroPageAnimation {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  position: absolute;
+  z-index: -3;
+}
+
+.heroPageAnimationOuter {
+  background: var(--fourthColor);
+  border: solid var(--fourthColor) 5px;
+  height: 300px;
+  width: 300px;
+  z-index: -5;
+  border-radius: 15%;
+  opacity: 0.5;
+  z-index: -3;
+  display: -webkit-box;
+  display: flex;
   -webkit-box-pack: center;
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-}
-
-.navBarContainer a {
-  color: var(--sixthColor);
-  margin: 0px 20px 0px 20px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 18px;
-}
-
-.navEntry:hover {
-  -webkit-animation-name: shakeHorizontal;
-          animation-name: shakeHorizontal;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-name: heroPageAnimation;
+          animation-name: heroPageAnimation;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  color: var(--primaryColor);
 }
 
-.navSpecial:hover {
-  -webkit-animation-name: pendulum;
-          animation-name: pendulum;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  color: var(--primaryColor);
+.heroPageAnimationInner {
+  background: var(--secondaryColor);
+  height: 75px;
+  width: 75px;
+  z-index: -3;
+  border-radius: 50%;
+  opacity: 1;
+  -webkit-animation: bgColorShift;
+          animation: bgColorShift;
 }
 
-.navExit:hover {
-  -webkit-animation-name: swingLeft;
-          animation-name: swingLeft;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  color: var(--primaryColor);
-}
-
-
-
-
-/****************** Header and see more section **********/
+/**************************************** Header and See More Section ****************************************/
 
 .header {
   text-align: center;
   min-width: 100vw;
+  margin-top: 25vh;
   padding: 45px 45px 0px 45px;
   min-height: 35vh;
   display: -webkit-box;
@@ -122,11 +128,23 @@ body {
           align-items: center;
 }
 
-h1 {
+.header h1 {
   font-size: 120px;
   color: var(--primaryColor);
   font-family: 'Oswald', 'Roboto', sans-serif;
   margin: 0;
+  z-index: 5;
+}
+
+.header p {
+  color: var(--sixthColor);
+  width: 100vw;
+  text-transform: lowercase;
+  font-size: 20px;
+  margin-top: 10px;
+  background: var(--primaryColor);
+  padding: 10px;
+  z-index: -2;
 }
 
 .thirdColor {
@@ -145,10 +163,13 @@ h1 {
   color: var(--primaryColor);
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .moreInfo {
-  width: 100vw;
-  min-height: 20vh;
-  margin: 0;
+  margin-top: 15px;
+  padding: 0px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: horizontal;
@@ -158,12 +179,13 @@ h1 {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
+  vertical-align: middle;
 }
 
 .moreInfo p {
   color: var(--sixthColor);
-  margin-right: 20px;
-  font-size: 1rem;
+  margin-right: 10px;
+  font-size: 20px;
 }
 
 .moreInfo a {
@@ -171,18 +193,13 @@ h1 {
   color: var(--sixthColor);
 }
 
-.header p {
-  color: var(--sixthColor);
-  text-transform: lowercase;
-  font-size: 1.2rem;
-}
 
-/****************** Cursor **********/
+/**************************************** Cursor ****************************************/
 
 .cursor {
   height: 7px;
   width: 7px;
-  background: var(--thirdColor);
+  background: var(--fourthColor);
   border-radius: 50%;
   position: absolute;
   z-index: -1;
@@ -201,7 +218,7 @@ h1 {
 #cursorOuter {
   height: 20px;
   width: 20px;
-  border: var(--fifthColor) solid 1px;
+  border: var(--fourthColor) solid 2px;
   border-radius: 25%;
   background: none;
   display: -webkit-box;
@@ -213,6 +230,140 @@ h1 {
   z-index: -1;
 }
 
+/**************************************** Arrows ****************************************/
+
+.downArrow {
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 0px 4px 4px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin: 15vh;
+  margin-bottom: 25vh;
+  -webkit-animation-name: colorChange;
+          animation-name: colorChange;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#toTopArrow {
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  border-style: solid;
+  border-color: black;
+  display: block;
+  position: absolute;
+  border-width: 0px 4px 4px 0px;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  z-index: 100;
+  bottom: 15px;
+  right: 25px;
+}
+
+/**************************************** Animation Examples ****************************************/
+
+.animationExamplesContainer {
+  border-top: solid;
+  border-width: 3px;
+  background: var(--secondaryColor);
+  -webkit-animation-name: colorChange2;
+          animation-name: colorChange2;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  z-index: -2;
+}
+
+.animationExamples {
+  margin-top: 20px;
+  z-index: -2;
+}
+
+.animationExamples .animationExamplesContainer {
+  min-width: 70vw;
+  min-height: 70vh;
+  color: var(--animationTextColor);
+  z-index: -2;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#animateItem {
+  background-color: var(--primaryColor);
+  width: 100px;
+  height: 100px;
+  z-index: -2;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+/**************************************** Page Element Animations ****************************************/
+
+/**************************************** Hero Page Background Animation ****************************************/
+
+@-webkit-keyframes heroPageAnimation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes heroPageAnimation {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/**************************************** Cursor Animation ****************************************/
 @-webkit-keyframes cursor {
   0% {
     -webkit-transform: rotate(0deg);
@@ -231,7 +382,7 @@ h1 {
   }
 }
 
-@keyframes cursor{
+@keyframes cursor {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -249,152 +400,8 @@ h1 {
   }
 }
 
+/**************************************** Nav Bar Intro Animation ****************************************/
 
-/****************** Arrows **********/
-
-.downArrow {
-  box-sizing: border-box;
-  height: 20px;
-  width: 20px;
-  display: inline-block;
-  border-style: solid;
-  border-width: 0px 4px 4px 0px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  margin: 15vh;
-  -webkit-animation-name: colorChange;
-          animation-name: colorChange;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-}
-
-#toTopArrow {
-  box-sizing: border-box;
-  height: 15px;
-  width: 15px;
-  display: inline-block;
-  border-style: solid;
-  border-color: var(--primaryColor);
-  display: block;
-  position: absolute;
-  border-width: 0px 4px 4px 0px;
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
-  z-index: 100;
-  bottom: 15px;
-  right: 20px;
-}
-
-
-/****************** How to use section **********/
-
-.howToUse {
-  min-width: 100vw;
-  min-height: 775px;
-  margin: 20px;
-}
-
-.useInstructionsWrapper {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-}
-
-.howToUseHead {
-  font-size: 2.5rem;
-  text-align: center;
-  color: var(--primaryColor);
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-}
-
-.useInstructions {
-  display: block;
-}
-
-.howToUseList {
-  margin: 30px 20px 20px 20px;
-  line-height: 1.8rem;
-  color: var(--sixthColor);
-  text-align: center;
-}
-
-li span {
-  padding: 1px 10px 1px 10px;
-  border-radius: 25px;
-}
-
-.animationExamplesContainer {
-  border-top: solid;
-  border-width: 0.3px;
-  -webkit-animation-name: colorChange2;
-          animation-name: colorChange2;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-/****************** Animation examples **********/
-
-.animationExamples {
-  margin-top: 20px;
-}
-
-.animationExamples .animationExamplesContainer {
-  min-width: 70vw;
-  min-height: 70vh;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-}
-
-#animateItem {
-  background-color: var(--primaryColor);
-  width: 100px;
-  height: 100px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-/******************** Page element animations ******************/
-
-/******************* Nav bar intro animation *********************/
 @-webkit-keyframes fadeInIntro {
   0% {
     opacity: 0;
@@ -427,7 +434,8 @@ li span {
           animation-fill-mode: backwards;
 }
 
-/******************* Header H1 animation *********************/
+/**************************************** Header H1 Animation ****************************************/
+
 @-webkit-keyframes introAnimation {
   0% {
     -webkit-transform: rotate(-90deg);
@@ -469,7 +477,8 @@ li span {
           animation-fill-mode: backwards;
 }
 
-/******************** Color change arrow animation ***************/
+/**************************************** Color Change Arrow Animation ****************************************/
+
 @-webkit-keyframes colorChange {
   0% {
     border-color: var(--secondaryColor);
@@ -524,7 +533,7 @@ li span {
   }
 }
 
-/****************** Color change lines animation *******************/
+/**************************************** Color Change Lines Animation ****************************************/
 
 @-webkit-keyframes colorChange2 {
   0% {
@@ -580,59 +589,49 @@ li span {
   }
 }
 
-/****************** Header para entry animation *******************/
-@-webkit-keyframes hingeUpRight {
+/**************************************** Header Paragraph Entry Animation ****************************************/
+
+@-webkit-keyframes flip {
   0% {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
     opacity: 0;
   }
-  70% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    opacity: 1;
-  }
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
     opacity: 1;
   }
 }
 
-@keyframes hingeUpRight {
+@keyframes flip {
   0% {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
     opacity: 0;
   }
-  70% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    opacity: 1;
-  }
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
     opacity: 1;
   }
 }
 
 .introAnimation2 {
-  -webkit-animation-name: hingeUpRight;
-          animation-name: hingeUpRight;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
-  -webkit-animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
-          animation-timing-function: cubic-bezier(.55,.27,.49,1.43);
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-name: flip;
+          animation-name: flip;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
+          -webkit-animation-delay: 2s;
+                  animation-delay: 2s;
 }
 
-/********************* More Info entry animation *******************/
+/**************************************** More Info Entry Animation ****************************************/
+
 @-webkit-keyframes enterRight {
   0% {
     -webkit-transform: translateX(1000px);
@@ -682,51 +681,7 @@ li span {
           animation-fill-mode: backwards;
 }
 
-/******************** Media Queries ******************/
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 4.5rem;
-    color: var(--primaryColor);
-    font-family: 'Oswald', 'Roboto', sans-serif;
-    margin: 0;
-  }
-
-  .header {
-    padding-top: 5px;
-  }
-
-  .navBarContainer a {
-    font-size: 14px;
-  }
-
-  .navBarContainer {
-    margin: 10px 0px 0px 0px;
-  }
-}
-
-@media (max-width: 400px) {
-  h1 {
-    font-size: 3rem;
-    color: var(--primaryColor);
-    font-family: 'Oswald', 'Roboto', sans-serif;
-    margin: 0;
-  }
-
-  .header {
-    padding-top: 5px;
-  }
-
-  .navBarContainer a {
-    font-size: 14px;
-  }
-
-  .navBarContainer {
-    margin: 10px 0px 0px 0px;
-  }
-}
-
-/******************** Animations for animation examples ******************/
+/**************************************** Animation Examples Animations ****************************************/
 
 @-webkit-keyframes fadeIn {
   0% {
@@ -756,7 +711,6 @@ li span {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
 
 /*************/
 
@@ -3243,6 +3197,7 @@ li span {
 }
 
 /*************/
+
 @-webkit-keyframes suprise {
   0% {
     -webkit-transform: scale(1);
@@ -3376,6 +3331,7 @@ li span {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
 /*************/
 
 @-webkit-keyframes shrinkExit {
@@ -4062,4 +4018,92 @@ li span {
           animation-iteration-count: infinite;
 }
 
-/*************/
+/**************************************** Media Queries ****************************************/
+
+@media (max-width: 900px) {
+  .cursor {
+    visibility: hidden;
+  }
+
+  #cursorOuter {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 4rem;
+    color: var(--primaryColor);
+    font-family: 'Oswald', 'Roboto', sans-serif;
+    margin: 0;
+  }
+
+  .header {
+    padding-top: 5px;
+  }
+
+  .navBarContainer a {
+    font-size: 14px;
+  }
+
+  .navBarContainer {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .cursor {
+    visibility: hidden;
+  }
+
+  #cursorOuter {
+    visibility: hidden;
+  }
+
+  .heroPageAnimationOuter {
+    height: 150px;
+    width: 150px;
+  }
+
+  .heroPageAnimationInner {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header h1 {
+    font-size: 3.5rem;
+    color: var(--primaryColor);
+    font-family: 'Oswald', 'Roboto', sans-serif;
+    margin: 0;
+  }
+
+  .header {
+    padding-top: 5px;
+  }
+
+  .navBarContainer a {
+    font-size: 14px;
+  }
+
+  .navBarContainer {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .cursor {
+    visibility: hidden;
+  }
+
+  #cursorOuter {
+    visibility: hidden;
+  }
+
+  .heroPageAnimationOuter {
+    height: 150px;
+    width: 150px;
+  }
+
+  .heroPageAnimationInner {
+    height: 40px;
+    width: 40px;
+  }
+}
