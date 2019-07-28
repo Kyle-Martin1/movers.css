@@ -134,7 +134,7 @@ body {
   font-family: 'Oswald', 'Roboto', sans-serif;
   margin-top: -10vh;
   z-index: 5;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 2.5px 2.5px 2.5px black;
 }
 
 .thirdColor {
