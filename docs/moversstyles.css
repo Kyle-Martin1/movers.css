@@ -70,6 +70,8 @@ body {
   z-index: -5;
   border-radius: 15%;
   opacity: 0.9;
+  -webkit-filter: drop-shadow(1.5px 1.5px 1.5px black);
+          filter: drop-shadow(1.5px 1.5px 1.5px black);
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -98,11 +100,14 @@ body {
   border-radius: 50%;
   opacity: 1;
   position: absolute;
+  -webkit-filter: drop-shadow(1.5px 1.5px 1.5px black);
+          filter: drop-shadow(1.5px 1.5px 1.5px black);
 }
 
 .heroPageAnimation p {
   z-index: -3;
   color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 /**************************************** Header and See More Section ****************************************/
@@ -127,8 +132,9 @@ body {
   font-size: 120px;
   color: var(--primaryColor);
   font-family: 'Oswald', 'Roboto', sans-serif;
-  margin: 0;
+  margin-top: -10vh;
   z-index: 5;
+  text-shadow: 3px 3px 3px black;
 }
 
 .thirdColor {
@@ -4013,7 +4019,6 @@ body {
     font-size: 4rem;
     color: var(--primaryColor);
     font-family: 'Oswald', 'Roboto', sans-serif;
-    margin: 0;
   }
 
   .header {
@@ -4056,7 +4061,6 @@ body {
     font-size: 3.5rem;
     color: var(--primaryColor);
     font-family: 'Oswald', 'Roboto', sans-serif;
-    margin: 0;
   }
 
   .header {
