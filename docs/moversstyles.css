@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
 
 /**************************************** Root, Body and HTML ****************************************/
 
 :root {
-  font-family: 'Oswald', 'Roboto' ,sans-serif;
+  font-family: 'Luckiest Guy', 'Oswald', cursive;
   --primaryColor: #FFF;
   --secondaryColor: #FFCE38;
   --thirdColor: #2ba64f;
@@ -41,8 +42,9 @@ body {
   align-items: center;
   overflow-x: hidden;
   scroll-behavior: smooth !important;
-  cursor: none;
+  cursor: crosshair;
 }
+
 
 /**************************************** Hero Page Animation ****************************************/
 
@@ -131,7 +133,7 @@ body {
 .header h1 {
   font-size: 120px;
   color: var(--primaryColor);
-  font-family: 'Oswald', 'Roboto', sans-serif;
+  font-family: 'Luckiest Guy', 'Oswald', cursive;
   margin-top: -10vh;
   z-index: 5;
   text-shadow: 2.5px 2.5px 2.5px black;
@@ -181,6 +183,81 @@ body {
   color: var(--sixthColor);
 }
 
+/**************************************** Overlay Menu ****************************************/
+
+aside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--seventhColor);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.menu {
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+aside .navLinks {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+aside a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 500;
+  line-height: 30px;
+  visibility: hidden;
+  text-transform: uppercase;
+}
+
+.open {
+  opacity: 0.95;
+  visibility: visible;
+}
+
+.openClose {
+  z-index: 100;
+  top: 15px;
+  right: 25px;
+  position: fixed;
+  display: inline-block;
+}
 
 /**************************************** Cursor ****************************************/
 
@@ -190,7 +267,7 @@ body {
   background: var(--fourthColor);
   border-radius: 50%;
   position: absolute;
-  z-index: -1;
+  z-index: -1 !important;
   -webkit-animation-name: cursor;
           animation-name: cursor;
   -webkit-animation-duration: 1s;
@@ -208,14 +285,14 @@ body {
   width: 20px;
   border: var(--fourthColor) solid 2px;
   border-radius: 25%;
-  background: none;
+  background: white;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  z-index: -1;
+  z-index: -1 !important;
 }
 
 /**************************************** Arrows ****************************************/
@@ -295,6 +372,7 @@ body {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
+  z-index: -2;
 }
 
 #animateItem {
@@ -311,6 +389,9 @@ body {
   -webkit-box-align: center;
           align-items: center;
   text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 13px;
+  font-weight: 200;
 }
 
 /**************************************** Page Element Animations ****************************************/
@@ -382,40 +463,6 @@ body {
             transform: rotate(-360deg);
     opacity: 1;
   }
-}
-
-/**************************************** Nav Bar Intro Animation ****************************************/
-
-@-webkit-keyframes fadeInIntro {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInIntro {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.navBarContainer,
-.toTopArrow {
-  -webkit-animation-name: fadeIn;
-          animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
 }
 
 /**************************************** Header H1 Animation ****************************************/
@@ -571,98 +618,6 @@ body {
     border-color: var(--primaryColor);
     opacity: 1;
   }
-}
-
-/**************************************** Header Paragraph Entry Animation ****************************************/
-
-@-webkit-keyframes flip {
-  0% {
-    -webkit-transform: rotateX(180deg);
-            transform: rotateX(180deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-    opacity: 1;
-  }
-}
-
-@keyframes flip {
-  0% {
-    -webkit-transform: rotateX(180deg);
-            transform: rotateX(180deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
-    opacity: 1;
-  }
-}
-
-.introAnimation2 {
-  -webkit-animation-name: flip;
-          animation-name: flip;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-          -webkit-animation-delay: 2s;
-                  animation-delay: 2s;
-}
-
-/**************************************** More Info Entry Animation ****************************************/
-
-@-webkit-keyframes enterRight {
-  0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
-    opacity: 0;
-  }
-  60% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes enterRight {
-  0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
-    opacity: 0;
-  }
-  60% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
-.moreInfo {
-  -webkit-animation-name: enterRight;
-          animation-name: enterRight;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
-          animation-timing-function: cubic-bezier(.64,.03,.39,1.49);
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
 }
 
 /**************************************** Animation Examples Animations ****************************************/
@@ -4014,23 +3969,19 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .header h1 {
-    font-size: 4rem;
-    color: var(--primaryColor);
-    font-family: 'Oswald', 'Roboto', sans-serif;
+    font-size: 3.5rem;
   }
 
   .header {
     padding-top: 5px;
-  }
-
-  .navBarContainer a {
-    font-size: 14px;
-  }
-
-  .navBarContainer {
-    margin: 10px 0px 0px 0px;
   }
 
   .cursor {
@@ -4052,27 +4003,17 @@ body {
   }
 
   .heroPageAnimation p {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 400px) {
   .header h1 {
-    font-size: 3.5rem;
-    color: var(--primaryColor);
-    font-family: 'Oswald', 'Roboto', sans-serif;
+    font-size: 2.5rem;
   }
 
   .header {
     padding-top: 5px;
-  }
-
-  .navBarContainer a {
-    font-size: 14px;
-  }
-
-  .navBarContainer {
-    margin: 10px 0px 0px 0px;
   }
 
   .cursor {
@@ -4094,6 +4035,104 @@ body {
   }
 
   .heroPageAnimation p {
-    font-size: 14px;
+    font-size: 13px;
   }
+}
+
+
+
+
+
+
+
+
+/***************************************************/
+
+aside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--seventhColor);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.menu {
+  width: 100vw;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+aside .navLinks {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+aside a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 500;
+  line-height: 30px;
+  visibility: hidden;
+  text-transform: uppercase;
+}
+
+.open {
+  opacity: 0.95;
+  visibility: visible;
+}
+
+.openClose {
+  z-index: 100;
+  top: 50px;
+  right: 50px;
+  position: fixed;
+}
+
+.toggle-overlay {
+  height: 25px;
+  width: 25px;
+  left: 50px;
+  top: 50px;
+}
+
+.outer-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 85px;
+  height: 85px;
+  cursor: pointer;
 }
