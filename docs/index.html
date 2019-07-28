@@ -8,13 +8,12 @@
   <meta name="description" content="A library of customisable and easy to use CSS based animations to make life simpler!">
   <title>movers.css | CSS Animation Library</title>
   <link href="moversstyles.css" rel="stylesheet">
+  <link href="hamburgers.css" rel="stylesheet">
   <script src="moversscript.js" async></script>
 </head>
 <body>
 
   <!-- TODO: REDESIGN COLOR CHANGE VARIABLE COLORS -->
-  <!-- TODO: FIX CUSTOM CURSOR GOING UNDERNEATH ANIMATION CONTAINERS -->
-  <!-- TODO: FIX MENU ICON POSITION -->
 
   <aside class="navOverlay">
     <nav class="menu">
@@ -27,7 +26,11 @@
     </nav>
   </aside>
 
-  <img src="images/icons8-menu-24.png" class="openClose">
+  <button class="hamburger hamburger--collapse" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
 
   <section class="customCursor">
     <div class="cursor" id="cursorOuter">
@@ -40,10 +43,6 @@
       <div class="heroPageAnimationInner">
       </div>
     </div>
-  </section>
-
-  <section>
-    <a id="toTopArrow" class="toTopArrow" href="#movers.css"></a>
   </section>
 
   <header class="header" id="movers.css">

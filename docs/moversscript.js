@@ -11,18 +11,21 @@ var cursor = document.querySelector('.cursor');
 
 
 ////////// Overlay Menu
-document.querySelector('.openClose').addEventListener('click', () => {
+document.querySelector('.hamburger').addEventListener('click', () => {
 
     document.querySelector('.navOverlay').classList.toggle('open');
     document.querySelector('.specialAnimationsLink').style.visibility = "visible";
     document.querySelector('.entryAnimationsLink').style.visibility = "visible";
     document.querySelector('.exitAnimationsLink').style.visibility = "visible";
     document.querySelector('.githubLink').style.visibility = "visible";
+    document.querySelector('.hamburger').classList.toggle('is-active');
+
 
 });
 
 document.querySelector('.navLinks').addEventListener('click', () => {
 
     document.querySelector('.navOverlay').classList.toggle('open');
+    document.querySelector('.hamburger').classList.toggle('is-active');
 
 });
