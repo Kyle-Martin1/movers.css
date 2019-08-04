@@ -1,1 +1,556 @@
-@-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}@keyframes fadeIn{0%{opacity:0}100%{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterTop{0%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes enterTop{0%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}.enterTop{-webkit-animation-name:enterTop;animation-name:enterTop;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterBottom{0%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes enterBottom{0%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}.enterBottom{-webkit-animation-name:enterBottom;animation-name:enterBottom;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterRight{0%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes enterRight{0%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}.enterRight{-webkit-animation-name:enterRight;animation-name:enterRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterLeft{0%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes enterLeft{0%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}.enterLeft{-webkit-animation-name:enterLeft;animation-name:enterLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes rotateClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.5}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);opacity:1}}@keyframes rotateClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:.5}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);opacity:1}}.rotateClockwise{-webkit-animation-name:rotateClockwise;animation-name:rotateClockwise;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes rotateAntiClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}50%{-webkit-transform:rotate(-180deg);transform:rotate(-180deg);opacity:.5}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:1}}@keyframes rotateAntiClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}50%{-webkit-transform:rotate(-180deg);transform:rotate(-180deg);opacity:.5}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:1}}.rotateAntiClockwise{-webkit-animation-name:rotateAntiClockwise;animation-name:rotateAntiClockwise;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes shrinkAndFadeIn{0%{-webkit-transform:scale(3);transform:scale(3);opacity:0}60%{-webkit-transform:scale(.8);transform:scale(.8);opacity:.5}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes shrinkAndFadeIn{0%{-webkit-transform:scale(3);transform:scale(3);opacity:0}60%{-webkit-transform:scale(.8);transform:scale(.8);opacity:.5}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.shrinkAndFadeIn{-webkit-animation-name:shrinkAndFadeIn;animation-name:shrinkAndFadeIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes growAndFadeIn{0%{-webkit-transform:scale(.2);transform:scale(.2);opacity:0}60%{-webkit-transform:scale(1.3);transform:scale(1.3);opacity:.8}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes growAndFadeIn{0%{-webkit-transform:scale(.2);transform:scale(.2);opacity:0}60%{-webkit-transform:scale(1.3);transform:scale(1.3);opacity:.8}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.growAndFadeIn{-webkit-animation-name:growAndFadeIn;animation-name:growAndFadeIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes flip{0%{-webkit-transform:rotateX(180deg);transform:rotateX(180deg);opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes flip{0%{-webkit-transform:rotateX(180deg);transform:rotateX(180deg);opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}.flip{-webkit-animation-name:flip;animation-name:flip;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes flipAlternate{0%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);opacity:0}100%{-webkit-transform:rotateY(0deg);transform:rotateY(0deg);opacity:1}}@keyframes flipAlternate{0%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);opacity:0}100%{-webkit-transform:rotateY(0deg);transform:rotateY(0deg);opacity:1}}.flipAlternate{-webkit-animation-name:flipAlternate;animation-name:flipAlternate;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes hingeUpLeft{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}@keyframes hingeUpLeft{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeUpLeft{-webkit-animation-name:hingeUpLeft;animation-name:hingeUpLeft;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom left;transform-origin:bottom left;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes hingeUpRight{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}@keyframes hingeUpRight{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeUpRight{-webkit-animation-name:hingeUpRight;animation-name:hingeUpRight;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes hingeDownRight{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}@keyframes hingeDownRight{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeDownRight{-webkit-animation-name:hingeDownRight;animation-name:hingeDownRight;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes hingeDownLeft{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}@keyframes hingeDownLeft{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeDownLeft{-webkit-animation-name:hingeDownLeft;animation-name:hingeDownLeft;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom left;transform-origin:bottom left;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterTopLeft{0%{-webkit-transform:translateX(-300px) translateY(-300px);transform:translateX(-300px) translateY(-300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}@keyframes enterTopLeft{0%{-webkit-transform:translateX(-300px) translateY(-300px);transform:translateX(-300px) translateY(-300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}.enterTopLeft{-webkit-animation-name:enterTopLeft;animation-name:enterTopLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterBottomRight{0%{-webkit-transform:translateX(300px) translateY(300px);transform:translateX(300px) translateY(300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}@keyframes enterBottomRight{0%{-webkit-transform:translateX(300px) translateY(300px);transform:translateX(300px) translateY(300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}.enterBottomRight{-webkit-animation-name:enterBottomRight;animation-name:enterBottomRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterTopRight{0%{-webkit-transform:translateX(300px) translateY(-300px);transform:translateX(300px) translateY(-300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}@keyframes enterTopRight{0%{-webkit-transform:translateX(300px) translateY(-300px);transform:translateX(300px) translateY(-300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}.enterTopRight{-webkit-animation-name:enterTopRight;animation-name:enterTopRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes enterBottomLeft{0%{-webkit-transform:translateX(-300px) translateY(300px);transform:translateX(-300px) translateY(300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}@keyframes enterBottomLeft{0%{-webkit-transform:translateX(-300px) translateY(300px);transform:translateX(-300px) translateY(300px);opacity:0}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);opacity:1}}.enterBottomLeft{-webkit-animation-name:enterBottomLeft;animation-name:enterBottomLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}@-webkit-keyframes exitTop{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}10%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}60%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}100%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}}@keyframes exitTop{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}10%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}60%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}100%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}}.exitTop{-webkit-animation-name:exitTop;animation-name:exitTop;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes exitBottom{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}10%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}60%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}100%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}}@keyframes exitBottom{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}10%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}60%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}100%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}}.exitBottom{-webkit-animation-name:exitBottom;animation-name:exitBottom;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes exitRight{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}10%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}60%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}100%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}}@keyframes exitRight{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}10%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}60%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}100%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}}.exitRight{-webkit-animation-name:exitRight;animation-name:exitRight;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes exitLeft{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}10%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}60%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}100%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}}@keyframes exitLeft{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}10%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}60%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}100%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}}.exitLeft{-webkit-animation-name:exitLeft;animation-name:exitLeft;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes giantFadeExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}70%{opacity:0;-webkit-transform:scale(6);transform:scale(6)}100%{opacity:0}}@keyframes giantFadeExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}70%{opacity:0;-webkit-transform:scale(6);transform:scale(6)}100%{opacity:0}}.giantFadeExit{-webkit-animation-name:giantFadeExit;animation-name:giantFadeExit;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes shrinkExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}70%{opacity:0;-webkit-transform:scale(0);transform:scale(0)}100%{opacity:0}}@keyframes shrinkExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}70%{opacity:0;-webkit-transform:scale(0);transform:scale(0)}100%{opacity:0}}.shrinkExit{-webkit-animation-name:shrinkExit;animation-name:shrinkExit;-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes spinExit{0%{opacity:1;-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{opacity:0;-webkit-transform:rotate(720deg);transform:rotate(720deg)}}@keyframes spinExit{0%{opacity:1;-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{opacity:0;-webkit-transform:rotate(720deg);transform:rotate(720deg)}}.spinExit{-webkit-animation-name:spinExit;animation-name:spinExit;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes spinShrinkExit{0%{opacity:1;-webkit-transform:rotate(0deg) scale(1);transform:rotate(0deg) scale(1)}100%{opacity:0;-webkit-transform:rotate(720deg) scale(0);transform:rotate(720deg) scale(0)}}@keyframes spinShrinkExit{0%{opacity:1;-webkit-transform:rotate(0deg) scale(1);transform:rotate(0deg) scale(1)}100%{opacity:0;-webkit-transform:rotate(720deg) scale(0);transform:rotate(720deg) scale(0)}}.spinShrinkExit{-webkit-animation-name:spinShrinkExit;animation-name:spinShrinkExit;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes shakeHorizontal{0%{-webkit-transform:translateX(0);transform:translateX(0)}20%{-webkit-transform:translateX(25px);transform:translateX(25px)}40%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}60%{-webkit-transform:translateX(25px);transform:translateX(25px)}80%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes shakeHorizontal{0%{-webkit-transform:translateX(0);transform:translateX(0)}20%{-webkit-transform:translateX(25px);transform:translateX(25px)}40%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}60%{-webkit-transform:translateX(25px);transform:translateX(25px)}80%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}.shakeHorizontal{-webkit-animation-name:shakeHorizontal;animation-name:shakeHorizontal;-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes shakeVertical{0%{-webkit-transform:translateY(0);transform:translateY(0)}20%{-webkit-transform:translateY(25px);transform:translateY(25px)}40%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}60%{-webkit-transform:translateY(25px);transform:translateY(25px)}80%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes shakeVertical{0%{-webkit-transform:translateY(0);transform:translateY(0)}20%{-webkit-transform:translateY(25px);transform:translateY(25px)}40%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}60%{-webkit-transform:translateY(25px);transform:translateY(25px)}80%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}.shakeVertical{-webkit-animation-name:shakeVertical;animation-name:shakeVertical;-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear}@-webkit-keyframes swingRight{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swingRight{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.swingRight{-webkit-animation-name:swingRight;animation-name:swingRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:center right;transform-origin:center right;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes swingLeft{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}@keyframes swingLeft{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}.swingLeft{-webkit-animation-name:swingLeft;animation-name:swingLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:center left;transform-origin:center left;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes fontColorShift{0%{color:#03132c;opacity:1}20%{color:#2cb6b9;opacity:1}40%{color:#fad06a;opacity:1}60%{color:#d9428a;opacity:1}80%{color:#5a719b;opacity:1}100%{color:#03132c;opacity:1}}@keyframes fontColorShift{0%{color:#03132c;opacity:1}20%{color:#2cb6b9;opacity:1}40%{color:#fad06a;opacity:1}60%{color:#d9428a;opacity:1}80%{color:#5a719b;opacity:1}100%{color:#03132c;opacity:1}}.fontColorShift{-webkit-animation-name:fontColorShift;animation-name:fontColorShift;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes bgColorShift{0%{background-color:#03132c;opacity:1}20%{background-color:#2cb6b9;opacity:1}40%{background-color:#fad06a;opacity:1}60%{background-color:#d9428a;opacity:1}80%{background-color:#5a719b;opacity:1}100%{background-color:#03132c;opacity:1}}@keyframes bgColorShift{0%{background-color:#03132c;opacity:1}20%{background-color:#2cb6b9;opacity:1}40%{background-color:#fad06a;opacity:1}60%{background-color:#d9428a;opacity:1}80%{background-color:#5a719b;opacity:1}100%{background-color:#03132c;opacity:1}}.bgColorShift{-webkit-animation-name:bgColorShift;animation-name:bgColorShift;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes shapeShift1{0%{-webkit-transform:scale(100%);transform:scale(100%)}20%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}80%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}100%{-webkit-transform:scale(100%);transform:scale(100%)}}@keyframes shapeShift1{0%{-webkit-transform:scale(100%);transform:scale(100%)}20%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}80%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}100%{-webkit-transform:scale(100%);transform:scale(100%)}}.shapeShift1{-webkit-animation-name:shapeShift1;animation-name:shapeShift1;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes pendulum{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes pendulum{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.pendulum{-webkit-animation-name:pendulum;animation-name:pendulum;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}@-webkit-keyframes rocking{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes rocking{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.rocking{-webkit-animation-name:rocking;animation-name:rocking;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:bottom center;transform-origin:bottom center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}@-webkit-keyframes madShake{0%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}2%{-webkit-transform:translate(4px,2px);transform:translate(4px,2px)}4%{-webkit-transform:translate(5px,7px);transform:translate(5px,7px)}6%{-webkit-transform:translate(9px,12px);transform:translate(9px,12px)}8%{-webkit-transform:translate(-35px,15px);transform:translate(-35px,15px)}10%{-webkit-transform:translate(1px,3px);transform:translate(1px,3px)}12%{-webkit-transform:translate(8px,8px);transform:translate(8px,8px)}14%{-webkit-transform:translate(2px,24px);transform:translate(2px,24px)}16%{-webkit-transform:translate(5px,5px);transform:translate(5px,5px)}18%{-webkit-transform:translate(16px,-14px);transform:translate(16px,-14px)}20%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}22%{-webkit-transform:translate(37px,37px);transform:translate(37px,37px)}24%{-webkit-transform:translate(-28px,22px);transform:translate(-28px,22px)}26%{-webkit-transform:translate(12px,2px);transform:translate(12px,2px)}28%{-webkit-transform:translate(41px,41px);transform:translate(41px,41px)}30%{-webkit-transform:translate(1px,-3px);transform:translate(1px,-3px)}32%{-webkit-transform:translate(8px,7px);transform:translate(8px,7px)}34%{-webkit-transform:translate(3px,4px);transform:translate(3px,4px)}36%{-webkit-transform:translate(-13px,-12px);transform:translate(-13px,-12px)}38%{-webkit-transform:translate(19px,21px);transform:translate(19px,21px)}40%{-webkit-transform:translate(6px,4px);transform:translate(6px,4px)}42%{-webkit-transform:translate(12px,3px);transform:translate(12px,3px)}44%{-webkit-transform:translate(2px,9px);transform:translate(2px,9px)}46%{-webkit-transform:translate(12px,12px);transform:translate(12px,12px)}48%{-webkit-transform:translate(45px,2px);transform:translate(45px,2px)}50%{-webkit-transform:translate(2px,-46px);transform:translate(2px,-46px)}52%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}54%{-webkit-transform:translate(12px,8px);transform:translate(12px,8px)}56%{-webkit-transform:translate(-22px,1px);transform:translate(-22px,1px)}58%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}60%{-webkit-transform:translate(14px,-26px);transform:translate(14px,-26px)}62%{-webkit-transform:translate(15px,11px);transform:translate(15px,11px)}64%{-webkit-transform:translate(19px,3px);transform:translate(19px,3px)}66%{-webkit-transform:translate(4px,18px);transform:translate(4px,18px)}68%{-webkit-transform:translate(33px,-21px);transform:translate(33px,-21px)}70%{-webkit-transform:translate(11px,4px);transform:translate(11px,4px)}72%{-webkit-transform:translate(-11px,18px);transform:translate(-11px,18px)}74%{-webkit-transform:translate(0,10px);transform:translate(0,10px)}76%{-webkit-transform:translate(17px,12px);transform:translate(17px,12px)}78%{-webkit-transform:translate(15px,16px);transform:translate(15px,16px)}80%{-webkit-transform:translate(-50px,3px);transform:translate(-50px,3px)}82%{-webkit-transform:translate(-12px,-19px);transform:translate(-12px,-19px)}84%{-webkit-transform:translate(2px,-1px);transform:translate(2px,-1px)}86%{-webkit-transform:translate(12px,21px);transform:translate(12px,21px)}88%{-webkit-transform:translate(8px,6px);transform:translate(8px,6px)}90%{-webkit-transform:translate(15px,21px);transform:translate(15px,21px)}92%{-webkit-transform:translate(52px,12px);transform:translate(52px,12px)}94%{-webkit-transform:translate(1px,11px);transform:translate(1px,11px)}96%{-webkit-transform:translate(45px,25px);transform:translate(45px,25px)}98%{-webkit-transform:translate(11px,12px);transform:translate(11px,12px)}100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}@keyframes madShake{0%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}2%{-webkit-transform:translate(4px,2px);transform:translate(4px,2px)}4%{-webkit-transform:translate(5px,7px);transform:translate(5px,7px)}6%{-webkit-transform:translate(9px,12px);transform:translate(9px,12px)}8%{-webkit-transform:translate(-35px,15px);transform:translate(-35px,15px)}10%{-webkit-transform:translate(1px,3px);transform:translate(1px,3px)}12%{-webkit-transform:translate(8px,8px);transform:translate(8px,8px)}14%{-webkit-transform:translate(2px,24px);transform:translate(2px,24px)}16%{-webkit-transform:translate(5px,5px);transform:translate(5px,5px)}18%{-webkit-transform:translate(16px,-14px);transform:translate(16px,-14px)}20%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}22%{-webkit-transform:translate(37px,37px);transform:translate(37px,37px)}24%{-webkit-transform:translate(-28px,22px);transform:translate(-28px,22px)}26%{-webkit-transform:translate(12px,2px);transform:translate(12px,2px)}28%{-webkit-transform:translate(41px,41px);transform:translate(41px,41px)}30%{-webkit-transform:translate(1px,-3px);transform:translate(1px,-3px)}32%{-webkit-transform:translate(8px,7px);transform:translate(8px,7px)}34%{-webkit-transform:translate(3px,4px);transform:translate(3px,4px)}36%{-webkit-transform:translate(-13px,-12px);transform:translate(-13px,-12px)}38%{-webkit-transform:translate(19px,21px);transform:translate(19px,21px)}40%{-webkit-transform:translate(6px,4px);transform:translate(6px,4px)}42%{-webkit-transform:translate(12px,3px);transform:translate(12px,3px)}44%{-webkit-transform:translate(2px,9px);transform:translate(2px,9px)}46%{-webkit-transform:translate(12px,12px);transform:translate(12px,12px)}48%{-webkit-transform:translate(45px,2px);transform:translate(45px,2px)}50%{-webkit-transform:translate(2px,-46px);transform:translate(2px,-46px)}52%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}54%{-webkit-transform:translate(12px,8px);transform:translate(12px,8px)}56%{-webkit-transform:translate(-22px,1px);transform:translate(-22px,1px)}58%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}60%{-webkit-transform:translate(14px,-26px);transform:translate(14px,-26px)}62%{-webkit-transform:translate(15px,11px);transform:translate(15px,11px)}64%{-webkit-transform:translate(19px,3px);transform:translate(19px,3px)}66%{-webkit-transform:translate(4px,18px);transform:translate(4px,18px)}68%{-webkit-transform:translate(33px,-21px);transform:translate(33px,-21px)}70%{-webkit-transform:translate(11px,4px);transform:translate(11px,4px)}72%{-webkit-transform:translate(-11px,18px);transform:translate(-11px,18px)}74%{-webkit-transform:translate(0,10px);transform:translate(0,10px)}76%{-webkit-transform:translate(17px,12px);transform:translate(17px,12px)}78%{-webkit-transform:translate(15px,16px);transform:translate(15px,16px)}80%{-webkit-transform:translate(-50px,3px);transform:translate(-50px,3px)}82%{-webkit-transform:translate(-12px,-19px);transform:translate(-12px,-19px)}84%{-webkit-transform:translate(2px,-1px);transform:translate(2px,-1px)}86%{-webkit-transform:translate(12px,21px);transform:translate(12px,21px)}88%{-webkit-transform:translate(8px,6px);transform:translate(8px,6px)}90%{-webkit-transform:translate(15px,21px);transform:translate(15px,21px)}92%{-webkit-transform:translate(52px,12px);transform:translate(52px,12px)}94%{-webkit-transform:translate(1px,11px);transform:translate(1px,11px)}96%{-webkit-transform:translate(45px,25px);transform:translate(45px,25px)}98%{-webkit-transform:translate(11px,12px);transform:translate(11px,12px)}100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}.madShake{-webkit-animation-name:madShake;animation-name:madShake;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:bottom center;transform-origin:bottom center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes elastic1{0%{-webkit-transform:translateY(0);transform:translateY(0)}10%{-webkit-transform:translateY(-60px);transform:translateY(-60px)}20%{-webkit-transform:translateY(50px);transform:translateY(50px)}30%{-webkit-transform:translateY(-40px);transform:translateY(-40px)}40%{-webkit-transform:translateY(30px);transform:translateY(30px)}50%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}60%{-webkit-transform:translateY(10px);transform:translateY(10px)}70%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}80%{-webkit-transform:translateY(3px);transform:translateY(3px)}90%{-webkit-transform:translateY(-1px);transform:translateY(-1px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes elastic1{0%{-webkit-transform:translateY(0);transform:translateY(0)}10%{-webkit-transform:translateY(-60px);transform:translateY(-60px)}20%{-webkit-transform:translateY(50px);transform:translateY(50px)}30%{-webkit-transform:translateY(-40px);transform:translateY(-40px)}40%{-webkit-transform:translateY(30px);transform:translateY(30px)}50%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}60%{-webkit-transform:translateY(10px);transform:translateY(10px)}70%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}80%{-webkit-transform:translateY(3px);transform:translateY(3px)}90%{-webkit-transform:translateY(-1px);transform:translateY(-1px)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}.elastic1{-webkit-animation-name:elastic1;animation-name:elastic1;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes elastic2{0%{-webkit-transform:translateX(0);transform:translateX(0)}10%{-webkit-transform:translateX(-60px);transform:translateX(-60px)}20%{-webkit-transform:translateX(50px);transform:translateX(50px)}30%{-webkit-transform:translateX(-40px);transform:translateX(-40px)}40%{-webkit-transform:translateX(30px);transform:translateX(30px)}50%{-webkit-transform:translateX(-20px);transform:translateX(-20px)}60%{-webkit-transform:translateX(10px);transform:translateX(10px)}70%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}80%{-webkit-transform:translateX(3px);transform:translateX(3px)}90%{-webkit-transform:translateX(-1px);transform:translateX(-1px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes elastic2{0%{-webkit-transform:translateX(0);transform:translateX(0)}10%{-webkit-transform:translateX(-60px);transform:translateX(-60px)}20%{-webkit-transform:translateX(50px);transform:translateX(50px)}30%{-webkit-transform:translateX(-40px);transform:translateX(-40px)}40%{-webkit-transform:translateX(30px);transform:translateX(30px)}50%{-webkit-transform:translateX(-20px);transform:translateX(-20px)}60%{-webkit-transform:translateX(10px);transform:translateX(10px)}70%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}80%{-webkit-transform:translateX(3px);transform:translateX(3px)}90%{-webkit-transform:translateX(-1px);transform:translateX(-1px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}.elastic2{-webkit-animation-name:elastic2;animation-name:elastic2;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes suprise{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}10%{-webkit-transform:scale(.8);transform:scale(.8);opacity:.8}20%{-webkit-transform:scale(.6);transform:scale(.6);opacity:.6}30%{-webkit-transform:scale(.4);transform:scale(.4);opacity:.4}40%{-webkit-transform:scale(.2);transform:scale(.2);opacity:.2}50%{-webkit-transform:scale(0);transform:scale(0);opacity:0}60%{-webkit-transform:scale(0);transform:scale(0);opacity:0}75%{-webkit-transform:scale(2);transform:scale(2);opacity:1}85%{-webkit-transform:scale(1);transform:scale(1);opacity:1}90%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes suprise{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}10%{-webkit-transform:scale(.8);transform:scale(.8);opacity:.8}20%{-webkit-transform:scale(.6);transform:scale(.6);opacity:.6}30%{-webkit-transform:scale(.4);transform:scale(.4);opacity:.4}40%{-webkit-transform:scale(.2);transform:scale(.2);opacity:.2}50%{-webkit-transform:scale(0);transform:scale(0);opacity:0}60%{-webkit-transform:scale(0);transform:scale(0);opacity:0}75%{-webkit-transform:scale(2);transform:scale(2);opacity:1}85%{-webkit-transform:scale(1);transform:scale(1);opacity:1}90%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.suprise{-webkit-animation-name:suprise;animation-name:suprise;-webkit-animation-duration:1.8s;animation-duration:1.8s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes moveSquare{0%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}15%{-webkit-transform:translateX(50px) translateY(0);transform:translateX(50px) translateY(0)}30%{-webkit-transform:translateX(50px) translateY(100px);transform:translateX(50px) translateY(100px)}45%{-webkit-transform:translateX(-50px) translateY(100px);transform:translateX(-50px) translateY(100px)}60%{-webkit-transform:translateX(-50px) translateY(0);transform:translateX(-50px) translateY(0)}75%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}90%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}}@keyframes moveSquare{0%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}15%{-webkit-transform:translateX(50px) translateY(0);transform:translateX(50px) translateY(0)}30%{-webkit-transform:translateX(50px) translateY(100px);transform:translateX(50px) translateY(100px)}45%{-webkit-transform:translateX(-50px) translateY(100px);transform:translateX(-50px) translateY(100px)}60%{-webkit-transform:translateX(-50px) translateY(0);transform:translateX(-50px) translateY(0)}75%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}90%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}}.moveSquare{-webkit-animation-name:moveSquare;animation-name:moveSquare;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}@-webkit-keyframes vibrate{0%{-webkit-transform:translateX(0);transform:translateX(0)}2%{-webkit-transform:translateX(2px);transform:translateX(2px)}4%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}6%{-webkit-transform:translateX(2px);transform:translateX(2px)}8%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}10%{-webkit-transform:translateX(2px);transform:translateX(2px)}12%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}14%{-webkit-transform:translateX(2px);transform:translateX(2px)}16%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}18%{-webkit-transform:translateX(2px);transform:translateX(2px)}20%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}22%{-webkit-transform:translateX(2px);transform:translateX(2px)}24%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}26%{-webkit-transform:translateX(2px);transform:translateX(2px)}28%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}30%{-webkit-transform:translateX(2px);transform:translateX(2px)}32%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}34%{-webkit-transform:translateX(2px);transform:translateX(2px)}36%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}38%{-webkit-transform:translateX(2px);transform:translateX(2px)}40%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}42%{-webkit-transform:translateX(2px);transform:translateX(2px)}44%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}46%{-webkit-transform:translateX(2px);transform:translateX(2px)}48%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}50%{-webkit-transform:translateX(2px);transform:translateX(2px)}52%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}54%{-webkit-transform:translateX(2px);transform:translateX(2px)}56%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}58%{-webkit-transform:translateX(2px);transform:translateX(2px)}60%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}62%{-webkit-transform:translateX(2px);transform:translateX(2px)}64%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}66%{-webkit-transform:translateX(2px);transform:translateX(2px)}68%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}70%{-webkit-transform:translateX(2px);transform:translateX(2px)}72%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}74%{-webkit-transform:translateX(2px);transform:translateX(2px)}76%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}78%{-webkit-transform:translateX(2px);transform:translateX(2px)}80%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}82%{-webkit-transform:translateX(2px);transform:translateX(2px)}84%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}86%{-webkit-transform:translateX(2px);transform:translateX(2px)}88%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}90%{-webkit-transform:translateX(2px);transform:translateX(2px)}92%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}94%{-webkit-transform:translateX(2px);transform:translateX(2px)}96%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}98%{-webkit-transform:translateX(2px);transform:translateX(2px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes vibrate{0%{-webkit-transform:translateX(0);transform:translateX(0)}2%{-webkit-transform:translateX(2px);transform:translateX(2px)}4%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}6%{-webkit-transform:translateX(2px);transform:translateX(2px)}8%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}10%{-webkit-transform:translateX(2px);transform:translateX(2px)}12%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}14%{-webkit-transform:translateX(2px);transform:translateX(2px)}16%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}18%{-webkit-transform:translateX(2px);transform:translateX(2px)}20%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}22%{-webkit-transform:translateX(2px);transform:translateX(2px)}24%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}26%{-webkit-transform:translateX(2px);transform:translateX(2px)}28%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}30%{-webkit-transform:translateX(2px);transform:translateX(2px)}32%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}34%{-webkit-transform:translateX(2px);transform:translateX(2px)}36%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}38%{-webkit-transform:translateX(2px);transform:translateX(2px)}40%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}42%{-webkit-transform:translateX(2px);transform:translateX(2px)}44%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}46%{-webkit-transform:translateX(2px);transform:translateX(2px)}48%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}50%{-webkit-transform:translateX(2px);transform:translateX(2px)}52%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}54%{-webkit-transform:translateX(2px);transform:translateX(2px)}56%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}58%{-webkit-transform:translateX(2px);transform:translateX(2px)}60%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}62%{-webkit-transform:translateX(2px);transform:translateX(2px)}64%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}66%{-webkit-transform:translateX(2px);transform:translateX(2px)}68%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}70%{-webkit-transform:translateX(2px);transform:translateX(2px)}72%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}74%{-webkit-transform:translateX(2px);transform:translateX(2px)}76%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}78%{-webkit-transform:translateX(2px);transform:translateX(2px)}80%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}82%{-webkit-transform:translateX(2px);transform:translateX(2px)}84%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}86%{-webkit-transform:translateX(2px);transform:translateX(2px)}88%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}90%{-webkit-transform:translateX(2px);transform:translateX(2px)}92%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}94%{-webkit-transform:translateX(2px);transform:translateX(2px)}96%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}98%{-webkit-transform:translateX(2px);transform:translateX(2px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}.vibrate{-webkit-animation-name:vibrate;animation-name:vibrate;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes fadeIn{0%{opacity:0}
+100%{opacity:1}}
+@-webkit-keyframes fadeIn{0%{opacity:0}
+100%{opacity:1}}
+@keyframes fadeIn{0%{opacity:0}
+100%{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterTop{0%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}}
+@keyframes enterTop{0%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}}.enterTop{-webkit-animation-name:enterTop;animation-name:enterTop;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterBottom{0%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}}
+@keyframes enterBottom{0%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}}.enterBottom{-webkit-animation-name:enterBottom;animation-name:enterBottom;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterRight{0%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}}
+@keyframes enterRight{0%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}}.enterRight{-webkit-animation-name:enterRight;animation-name:enterRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterLeft{0%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}}
+@keyframes enterLeft{0%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}}.enterLeft{-webkit-animation-name:enterLeft;animation-name:enterLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes rotateClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}
+50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:0.5}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);opacity:1}}
+@keyframes rotateClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}
+50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);opacity:0.5}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);opacity:1}}.rotateClockwise{-webkit-animation-name:rotateClockwise;animation-name:rotateClockwise;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes rotateAntiClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}
+50%{-webkit-transform:rotate(-180deg);transform:rotate(-180deg);opacity:0.5}
+100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:1}}
+@keyframes rotateAntiClockwise{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:0}
+50%{-webkit-transform:rotate(-180deg);transform:rotate(-180deg);opacity:0.5}
+100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:1}}.rotateAntiClockwise{-webkit-animation-name:rotateAntiClockwise;animation-name:rotateAntiClockwise;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes shrinkAndFadeIn{0%{-webkit-transform:scale(3);transform:scale(3);opacity:0}
+60%{-webkit-transform:scale(0.8);transform:scale(0.8);opacity:0.5}
+100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+@keyframes shrinkAndFadeIn{0%{-webkit-transform:scale(3);transform:scale(3);opacity:0}
+60%{-webkit-transform:scale(0.8);transform:scale(0.8);opacity:0.5}
+100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.shrinkAndFadeIn{-webkit-animation-name:shrinkAndFadeIn;animation-name:shrinkAndFadeIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes growAndFadeIn{0%{-webkit-transform:scale(0.2);transform:scale(0.2);opacity:0}
+60%{-webkit-transform:scale(1.3);transform:scale(1.3);opacity:0.8}
+100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+@keyframes growAndFadeIn{0%{-webkit-transform:scale(0.2);transform:scale(0.2);opacity:0}
+60%{-webkit-transform:scale(1.3);transform:scale(1.3);opacity:0.8}
+100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.growAndFadeIn{-webkit-animation-name:growAndFadeIn;animation-name:growAndFadeIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes flip{0%{-webkit-transform:rotateX(180deg);transform:rotateX(180deg);opacity:0}
+100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}
+@keyframes flip{0%{-webkit-transform:rotateX(180deg);transform:rotateX(180deg);opacity:0}
+100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}.flip{-webkit-animation-name:flip;animation-name:flip;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes flipAlternate{0%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);opacity:0}
+100%{-webkit-transform:rotateY(0deg);transform:rotateY(0deg);opacity:1}}
+@keyframes flipAlternate{0%{-webkit-transform:rotateY(180deg);transform:rotateY(180deg);opacity:0}
+100%{-webkit-transform:rotateY(0deg);transform:rotateY(0deg);opacity:1}}.flipAlternate{-webkit-animation-name:flipAlternate;animation-name:flipAlternate;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes hingeUpLeft{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}
+@keyframes hingeUpLeft{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeUpLeft{-webkit-animation-name:hingeUpLeft;animation-name:hingeUpLeft;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom left;transform-origin:bottom left;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes hingeUpRight{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}
+@keyframes hingeUpRight{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeUpRight{-webkit-animation-name:hingeUpRight;animation-name:hingeUpRight;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes hingeDownRight{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}
+@keyframes hingeDownRight{0%{-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeDownRight{-webkit-animation-name:hingeDownRight;animation-name:hingeDownRight;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes hingeDownLeft{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}
+@keyframes hingeDownLeft{0%{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);opacity:1}}.hingeDownLeft{-webkit-animation-name:hingeDownLeft;animation-name:hingeDownLeft;-webkit-animation-duration:0.6s;animation-duration:0.6s;-webkit-animation-timing-function:cubic-bezier(.55,.27,.49,1.43);animation-timing-function:cubic-bezier(.55,.27,.49,1.43);-webkit-transform-origin:bottom left;transform-origin:bottom left;-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterTopLeft{0%{-webkit-transform:translateX(-300px)translateY(-300px);transform:translateX(-300px)translateY(-300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}
+@keyframes enterTopLeft{0%{-webkit-transform:translateX(-300px)translateY(-300px);transform:translateX(-300px)translateY(-300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}.enterTopLeft{-webkit-animation-name:enterTopLeft;animation-name:enterTopLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterBottomRight{0%{-webkit-transform:translateX(300px)translateY(300px);transform:translateX(300px)translateY(300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}
+@keyframes enterBottomRight{0%{-webkit-transform:translateX(300px)translateY(300px);transform:translateX(300px)translateY(300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}.enterBottomRight{-webkit-animation-name:enterBottomRight;animation-name:enterBottomRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterTopRight{0%{-webkit-transform:translateX(300px)translateY(-300px);transform:translateX(300px)translateY(-300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}
+@keyframes enterTopRight{0%{-webkit-transform:translateX(300px)translateY(-300px);transform:translateX(300px)translateY(-300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}.enterTopRight{-webkit-animation-name:enterTopRight;animation-name:enterTopRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes enterBottomLeft{0%{-webkit-transform:translateX(-300px)translateY(300px);transform:translateX(-300px)translateY(300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}
+@keyframes enterBottomLeft{0%{-webkit-transform:translateX(-300px)translateY(300px);transform:translateX(-300px)translateY(300px);opacity:0}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px);opacity:1}}.enterBottomLeft{-webkit-animation-name:enterBottomLeft;animation-name:enterBottomLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.64,.03,.39,1.49);animation-timing-function:cubic-bezier(.64,.03,.39,1.49);-webkit-animation-fill-mode:backwards;animation-fill-mode:backwards}
+@-webkit-keyframes exitTop{0%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+10%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+60%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}
+100%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}}
+@keyframes exitTop{0%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+10%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+60%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}
+100%{-webkit-transform:translateY(-300px);transform:translateY(-300px);opacity:0}}.exitTop{-webkit-animation-name:exitTop;animation-name:exitTop;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes exitBottom{0%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+10%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+60%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}
+100%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}}
+@keyframes exitBottom{0%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+10%{-webkit-transform:translateY(0px);transform:translateY(0px);opacity:1}
+60%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}
+100%{-webkit-transform:translateY(300px);transform:translateY(300px);opacity:0}}.exitBottom{-webkit-animation-name:exitBottom;animation-name:exitBottom;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes exitRight{0%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+10%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+60%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}
+100%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}}
+@keyframes exitRight{0%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+10%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+60%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}
+100%{-webkit-transform:translateX(300px);transform:translateX(300px);opacity:0}}.exitRight{-webkit-animation-name:exitRight;animation-name:exitRight;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes exitLeft{0%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+10%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+60%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}
+100%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}}
+@keyframes exitLeft{0%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+10%{-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+60%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}
+100%{-webkit-transform:translateX(-300px);transform:translateX(-300px);opacity:0}}.exitLeft{-webkit-animation-name:exitLeft;animation-name:exitLeft;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);animation-timing-function:cubic-bezier(.52,-0.3,.6,1.03);-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes fadeOut{0%{opacity:1}
+100%{opacity:0}}
+@keyframes fadeOut{0%{opacity:1}
+100%{opacity:0}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes giantFadeExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+70%{opacity:0;-webkit-transform:scale(6);transform:scale(6)}
+100%{opacity:0}}
+@keyframes giantFadeExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+70%{opacity:0;-webkit-transform:scale(6);transform:scale(6)}
+100%{opacity:0}}.giantFadeExit{-webkit-animation-name:giantFadeExit;animation-name:giantFadeExit;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes shrinkExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+70%{opacity:0;-webkit-transform:scale(0);transform:scale(0)}
+100%{opacity:0}}
+@keyframes shrinkExit{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}
+70%{opacity:0;-webkit-transform:scale(0);transform:scale(0)}
+100%{opacity:0}}.shrinkExit{-webkit-animation-name:shrinkExit;animation-name:shrinkExit;-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes spinExit{0%{opacity:1;-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{opacity:0;-webkit-transform:rotate(720deg);transform:rotate(720deg)}}
+@keyframes spinExit{0%{opacity:1;-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{opacity:0;-webkit-transform:rotate(720deg);transform:rotate(720deg)}}.spinExit{-webkit-animation-name:spinExit;animation-name:spinExit;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes spinShrinkExit{0%{opacity:1;-webkit-transform:rotate(0deg)scale(1);transform:rotate(0deg)scale(1)}
+100%{opacity:0;-webkit-transform:rotate(720deg)scale(0);transform:rotate(720deg)scale(0)}}
+@keyframes spinShrinkExit{0%{opacity:1;-webkit-transform:rotate(0deg)scale(1);transform:rotate(0deg)scale(1)}
+100%{opacity:0;-webkit-transform:rotate(720deg)scale(0);transform:rotate(720deg)scale(0)}}.spinShrinkExit{-webkit-animation-name:spinShrinkExit;animation-name:spinShrinkExit;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes shakeHorizontal{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+20%{-webkit-transform:translateX(25px);transform:translateX(25px)}
+40%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}
+60%{-webkit-transform:translateX(25px);transform:translateX(25px)}
+80%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}
+@keyframes shakeHorizontal{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+20%{-webkit-transform:translateX(25px);transform:translateX(25px)}
+40%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}
+60%{-webkit-transform:translateX(25px);transform:translateX(25px)}
+80%{-webkit-transform:translateX(-25px);transform:translateX(-25px)}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}.shakeHorizontal{-webkit-animation-name:shakeHorizontal;animation-name:shakeHorizontal;-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear}
+@-webkit-keyframes shakeVertical{0%{-webkit-transform:translateY(0px);transform:translateY(0px)}
+20%{-webkit-transform:translateY(25px);transform:translateY(25px)}
+40%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}
+60%{-webkit-transform:translateY(25px);transform:translateY(25px)}
+80%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px)}}
+@keyframes shakeVertical{0%{-webkit-transform:translateY(0px);transform:translateY(0px)}
+20%{-webkit-transform:translateY(25px);transform:translateY(25px)}
+40%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}
+60%{-webkit-transform:translateY(25px);transform:translateY(25px)}
+80%{-webkit-transform:translateY(-25px);transform:translateY(-25px)}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px)}}.shakeVertical{-webkit-animation-name:shakeVertical;animation-name:shakeVertical;-webkit-animation-duration:0.5s;animation-duration:0.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear}
+@-webkit-keyframes swingRight{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+@keyframes swingRight{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.swingRight{-webkit-animation-name:swingRight;animation-name:swingRight;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:center right;transform-origin:center right;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes swingLeft{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}
+@keyframes swingLeft{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+100%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg)}}.swingLeft{-webkit-animation-name:swingLeft;animation-name:swingLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-transform-origin:center left;transform-origin:center left;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes fontColorShift{0%{color:#03132c;opacity:1}
+20%{color:#2cb6b9;opacity:1}
+40%{color:#fad06a;opacity:1}
+60%{color:#d9428a;opacity:1}
+80%{color:#5a719b;opacity:1}
+100%{color:#03132c;opacity:1}}
+@keyframes fontColorShift{0%{color:#03132c;opacity:1}
+20%{color:#2cb6b9;opacity:1}
+40%{color:#fad06a;opacity:1}
+60%{color:#d9428a;opacity:1}
+80%{color:#5a719b;opacity:1}
+100%{color:#03132c;opacity:1}}.fontColorShift{-webkit-animation-name:fontColorShift;animation-name:fontColorShift;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
+@-webkit-keyframes bgColorShift{0%{background-color:#03132c;opacity:1}
+20%{background-color:#2cb6b9;opacity:1}
+40%{background-color:#fad06a;opacity:1}
+60%{background-color:#d9428a;opacity:1}
+80%{background-color:#5a719b;opacity:1}
+100%{background-color:#03132c;opacity:1}}
+@keyframes bgColorShift{0%{background-color:#03132c;opacity:1}
+20%{background-color:#2cb6b9;opacity:1}
+40%{background-color:#fad06a;opacity:1}
+60%{background-color:#d9428a;opacity:1}
+80%{background-color:#5a719b;opacity:1}
+100%{background-color:#03132c;opacity:1}}.bgColorShift{-webkit-animation-name:bgColorShift;animation-name:bgColorShift;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-duration:5s;animation-duration:5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
+@-webkit-keyframes shapeShift1{0%{-webkit-transform:scale(100%);transform:scale(100%)}
+20%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}
+80%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}
+100%{-webkit-transform:scale(100%);transform:scale(100%)}}
+@keyframes shapeShift1{0%{-webkit-transform:scale(100%);transform:scale(100%)}
+20%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}
+80%{-webkit-transform:scale(50%);transform:scale(50%);border-radius:50%}
+100%{-webkit-transform:scale(100%);transform:scale(100%)}}.shapeShift1{-webkit-animation-name:shapeShift1;animation-name:shapeShift1;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes pendulum{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+@keyframes pendulum{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.pendulum{-webkit-animation-name:pendulum;animation-name:pendulum;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}
+@-webkit-keyframes rocking{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+@keyframes rocking{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.rocking{-webkit-animation-name:rocking;animation-name:rocking;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:bottom center;transform-origin:bottom center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}
+@-webkit-keyframes madShake{0%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}
+2%{-webkit-transform:translate(4px,2px);transform:translate(4px,2px)}
+4%{-webkit-transform:translate(5px,7px);transform:translate(5px,7px)}
+6%{-webkit-transform:translate(9px,12px);transform:translate(9px,12px)}
+8%{-webkit-transform:translate(-35px,15px);transform:translate(-35px,15px)}
+10%{-webkit-transform:translate(1px,3px);transform:translate(1px,3px)}
+12%{-webkit-transform:translate(8px,8px);transform:translate(8px,8px)}
+14%{-webkit-transform:translate(2px,24px);transform:translate(2px,24px)}
+16%{-webkit-transform:translate(5px,5px);transform:translate(5px,5px)}
+18%{-webkit-transform:translate(16px,-14px);transform:translate(16px,-14px)}
+20%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}
+22%{-webkit-transform:translate(37px,37px);transform:translate(37px,37px)}
+24%{-webkit-transform:translate(-28px,22px);transform:translate(-28px,22px)}
+26%{-webkit-transform:translate(12px,2px);transform:translate(12px,2px)}
+28%{-webkit-transform:translate(41px,41px);transform:translate(41px,41px)}
+30%{-webkit-transform:translate(1px,-3px);transform:translate(1px,-3px)}
+32%{-webkit-transform:translate(8px,7px);transform:translate(8px,7px)}
+34%{-webkit-transform:translate(3px,4px);transform:translate(3px,4px)}
+36%{-webkit-transform:translate(-13px,-12px);transform:translate(-13px,-12px)}
+38%{-webkit-transform:translate(19px,21px);transform:translate(19px,21px)}
+40%{-webkit-transform:translate(6px,4px);transform:translate(6px,4px)}
+42%{-webkit-transform:translate(12px,3px);transform:translate(12px,3px)}
+44%{-webkit-transform:translate(2px,9px);transform:translate(2px,9px)}
+46%{-webkit-transform:translate(12px,12px);transform:translate(12px,12px)}
+48%{-webkit-transform:translate(45px,2px);transform:translate(45px,2px)}
+50%{-webkit-transform:translate(2px,-46px);transform:translate(2px,-46px)}
+52%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}
+54%{-webkit-transform:translate(12px,8px);transform:translate(12px,8px)}
+56%{-webkit-transform:translate(-22px,1px);transform:translate(-22px,1px)}
+58%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}
+60%{-webkit-transform:translate(14px,-26px);transform:translate(14px,-26px)}
+62%{-webkit-transform:translate(15px,11px);transform:translate(15px,11px)}
+64%{-webkit-transform:translate(19px,3px);transform:translate(19px,3px)}
+66%{-webkit-transform:translate(4px,18px);transform:translate(4px,18px)}
+68%{-webkit-transform:translate(33px,-21px);transform:translate(33px,-21px)}
+70%{-webkit-transform:translate(11px,4px);transform:translate(11px,4px)}
+72%{-webkit-transform:translate(-11px,18px);transform:translate(-11px,18px)}
+74%{-webkit-transform:translate(0px,10px);transform:translate(0px,10px)}
+76%{-webkit-transform:translate(17px,12px);transform:translate(17px,12px)}
+78%{-webkit-transform:translate(15px,16px);transform:translate(15px,16px)}
+80%{-webkit-transform:translate(-50px,3px);transform:translate(-50px,3px)}
+82%{-webkit-transform:translate(-12px,-19px);transform:translate(-12px,-19px)}
+84%{-webkit-transform:translate(2px,-1px);transform:translate(2px,-1px)}
+86%{-webkit-transform:translate(12px,21px);transform:translate(12px,21px)}
+88%{-webkit-transform:translate(8px,6px);transform:translate(8px,6px)}
+90%{-webkit-transform:translate(15px,21px);transform:translate(15px,21px)}
+92%{-webkit-transform:translate(52px,12px);transform:translate(52px,12px)}
+94%{-webkit-transform:translate(1px,11px);transform:translate(1px,11px)}
+96%{-webkit-transform:translate(45px,25px);transform:translate(45px,25px)}
+98%{-webkit-transform:translate(11px,12px);transform:translate(11px,12px)}
+100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}
+@keyframes madShake{0%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}
+2%{-webkit-transform:translate(4px,2px);transform:translate(4px,2px)}
+4%{-webkit-transform:translate(5px,7px);transform:translate(5px,7px)}
+6%{-webkit-transform:translate(9px,12px);transform:translate(9px,12px)}
+8%{-webkit-transform:translate(-35px,15px);transform:translate(-35px,15px)}
+10%{-webkit-transform:translate(1px,3px);transform:translate(1px,3px)}
+12%{-webkit-transform:translate(8px,8px);transform:translate(8px,8px)}
+14%{-webkit-transform:translate(2px,24px);transform:translate(2px,24px)}
+16%{-webkit-transform:translate(5px,5px);transform:translate(5px,5px)}
+18%{-webkit-transform:translate(16px,-14px);transform:translate(16px,-14px)}
+20%{-webkit-transform:translate(3px,9px);transform:translate(3px,9px)}
+22%{-webkit-transform:translate(37px,37px);transform:translate(37px,37px)}
+24%{-webkit-transform:translate(-28px,22px);transform:translate(-28px,22px)}
+26%{-webkit-transform:translate(12px,2px);transform:translate(12px,2px)}
+28%{-webkit-transform:translate(41px,41px);transform:translate(41px,41px)}
+30%{-webkit-transform:translate(1px,-3px);transform:translate(1px,-3px)}
+32%{-webkit-transform:translate(8px,7px);transform:translate(8px,7px)}
+34%{-webkit-transform:translate(3px,4px);transform:translate(3px,4px)}
+36%{-webkit-transform:translate(-13px,-12px);transform:translate(-13px,-12px)}
+38%{-webkit-transform:translate(19px,21px);transform:translate(19px,21px)}
+40%{-webkit-transform:translate(6px,4px);transform:translate(6px,4px)}
+42%{-webkit-transform:translate(12px,3px);transform:translate(12px,3px)}
+44%{-webkit-transform:translate(2px,9px);transform:translate(2px,9px)}
+46%{-webkit-transform:translate(12px,12px);transform:translate(12px,12px)}
+48%{-webkit-transform:translate(45px,2px);transform:translate(45px,2px)}
+50%{-webkit-transform:translate(2px,-46px);transform:translate(2px,-46px)}
+52%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}
+54%{-webkit-transform:translate(12px,8px);transform:translate(12px,8px)}
+56%{-webkit-transform:translate(-22px,1px);transform:translate(-22px,1px)}
+58%{-webkit-transform:translate(13px,12px);transform:translate(13px,12px)}
+60%{-webkit-transform:translate(14px,-26px);transform:translate(14px,-26px)}
+62%{-webkit-transform:translate(15px,11px);transform:translate(15px,11px)}
+64%{-webkit-transform:translate(19px,3px);transform:translate(19px,3px)}
+66%{-webkit-transform:translate(4px,18px);transform:translate(4px,18px)}
+68%{-webkit-transform:translate(33px,-21px);transform:translate(33px,-21px)}
+70%{-webkit-transform:translate(11px,4px);transform:translate(11px,4px)}
+72%{-webkit-transform:translate(-11px,18px);transform:translate(-11px,18px)}
+74%{-webkit-transform:translate(0px,10px);transform:translate(0px,10px)}
+76%{-webkit-transform:translate(17px,12px);transform:translate(17px,12px)}
+78%{-webkit-transform:translate(15px,16px);transform:translate(15px,16px)}
+80%{-webkit-transform:translate(-50px,3px);transform:translate(-50px,3px)}
+82%{-webkit-transform:translate(-12px,-19px);transform:translate(-12px,-19px)}
+84%{-webkit-transform:translate(2px,-1px);transform:translate(2px,-1px)}
+86%{-webkit-transform:translate(12px,21px);transform:translate(12px,21px)}
+88%{-webkit-transform:translate(8px,6px);transform:translate(8px,6px)}
+90%{-webkit-transform:translate(15px,21px);transform:translate(15px,21px)}
+92%{-webkit-transform:translate(52px,12px);transform:translate(52px,12px)}
+94%{-webkit-transform:translate(1px,11px);transform:translate(1px,11px)}
+96%{-webkit-transform:translate(45px,25px);transform:translate(45px,25px)}
+98%{-webkit-transform:translate(11px,12px);transform:translate(11px,12px)}
+100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}.madShake{-webkit-animation-name:madShake;animation-name:madShake;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:bottom center;transform-origin:bottom center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes elastic1{0%{-webkit-transform:translateY(0px);transform:translateY(0px)}
+10%{-webkit-transform:translateY(-60px);transform:translateY(-60px)}
+20%{-webkit-transform:translateY(50px);transform:translateY(50px)}
+30%{-webkit-transform:translateY(-40px);transform:translateY(-40px)}
+40%{-webkit-transform:translateY(30px);transform:translateY(30px)}
+50%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}
+60%{-webkit-transform:translateY(10px);transform:translateY(10px)}
+70%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+80%{-webkit-transform:translateY(3px);transform:translateY(3px)}
+90%{-webkit-transform:translateY(-1px);transform:translateY(-1px)}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px)}}
+@keyframes elastic1{0%{-webkit-transform:translateY(0px);transform:translateY(0px)}
+10%{-webkit-transform:translateY(-60px);transform:translateY(-60px)}
+20%{-webkit-transform:translateY(50px);transform:translateY(50px)}
+30%{-webkit-transform:translateY(-40px);transform:translateY(-40px)}
+40%{-webkit-transform:translateY(30px);transform:translateY(30px)}
+50%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}
+60%{-webkit-transform:translateY(10px);transform:translateY(10px)}
+70%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+80%{-webkit-transform:translateY(3px);transform:translateY(3px)}
+90%{-webkit-transform:translateY(-1px);transform:translateY(-1px)}
+100%{-webkit-transform:translateY(0px);transform:translateY(0px)}}.elastic1{-webkit-animation-name:elastic1;animation-name:elastic1;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes elastic2{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+10%{-webkit-transform:translateX(-60px);transform:translateX(-60px)}
+20%{-webkit-transform:translateX(50px);transform:translateX(50px)}
+30%{-webkit-transform:translateX(-40px);transform:translateX(-40px)}
+40%{-webkit-transform:translateX(30px);transform:translateX(30px)}
+50%{-webkit-transform:translateX(-20px);transform:translateX(-20px)}
+60%{-webkit-transform:translateX(10px);transform:translateX(10px)}
+70%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}
+80%{-webkit-transform:translateX(3px);transform:translateX(3px)}
+90%{-webkit-transform:translateX(-1px);transform:translateX(-1px)}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}
+@keyframes elastic2{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+10%{-webkit-transform:translateX(-60px);transform:translateX(-60px)}
+20%{-webkit-transform:translateX(50px);transform:translateX(50px)}
+30%{-webkit-transform:translateX(-40px);transform:translateX(-40px)}
+40%{-webkit-transform:translateX(30px);transform:translateX(30px)}
+50%{-webkit-transform:translateX(-20px);transform:translateX(-20px)}
+60%{-webkit-transform:translateX(10px);transform:translateX(10px)}
+70%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}
+80%{-webkit-transform:translateX(3px);transform:translateX(3px)}
+90%{-webkit-transform:translateX(-1px);transform:translateX(-1px)}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}.elastic2{-webkit-animation-name:elastic2;animation-name:elastic2;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes suprise{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+10%{-webkit-transform:scale(0.8);transform:scale(0.8);opacity:0.8}
+20%{-webkit-transform:scale(0.6);transform:scale(0.6);opacity:0.6}
+30%{-webkit-transform:scale(0.4);transform:scale(0.4);opacity:0.4}
+40%{-webkit-transform:scale(0.2);transform:scale(0.2);opacity:0.2}
+50%{-webkit-transform:scale(0);transform:scale(0);opacity:0}
+60%{-webkit-transform:scale(0);transform:scale(0);opacity:0}
+75%{-webkit-transform:scale(2);transform:scale(2);opacity:1}
+85%{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+90%{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+@keyframes suprise{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+10%{-webkit-transform:scale(0.8);transform:scale(0.8);opacity:0.8}
+20%{-webkit-transform:scale(0.6);transform:scale(0.6);opacity:0.6}
+30%{-webkit-transform:scale(0.4);transform:scale(0.4);opacity:0.4}
+40%{-webkit-transform:scale(0.2);transform:scale(0.2);opacity:0.2}
+50%{-webkit-transform:scale(0);transform:scale(0);opacity:0}
+60%{-webkit-transform:scale(0);transform:scale(0);opacity:0}
+75%{-webkit-transform:scale(2);transform:scale(2);opacity:1}
+85%{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+90%{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}.suprise{-webkit-animation-name:suprise;animation-name:suprise;-webkit-animation-duration:1.8s;animation-duration:1.8s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes moveSquare{0%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}
+15%{-webkit-transform:translateX(50px)translateY(0px);transform:translateX(50px)translateY(0px)}
+30%{-webkit-transform:translateX(50px)translateY(100px);transform:translateX(50px)translateY(100px)}
+45%{-webkit-transform:translateX(-50px)translateY(100px);transform:translateX(-50px)translateY(100px)}
+60%{-webkit-transform:translateX(-50px)translateY(0px);transform:translateX(-50px)translateY(0px)}
+75%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}
+90%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}}
+@keyframes moveSquare{0%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}
+15%{-webkit-transform:translateX(50px)translateY(0px);transform:translateX(50px)translateY(0px)}
+30%{-webkit-transform:translateX(50px)translateY(100px);transform:translateX(50px)translateY(100px)}
+45%{-webkit-transform:translateX(-50px)translateY(100px);transform:translateX(-50px)translateY(100px)}
+60%{-webkit-transform:translateX(-50px)translateY(0px);transform:translateX(-50px)translateY(0px)}
+75%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}
+90%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}
+100%{-webkit-transform:translateX(0px)translateY(0px);transform:translateX(0px)translateY(0px)}}.moveSquare{-webkit-animation-name:moveSquare;animation-name:moveSquare;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes vibrate{0%{-webkit-transform:translateX(0);transform:translateX(0)}
+2%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+4%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+6%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+8%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+10%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+12%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+14%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+16%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+18%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+20%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+22%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+24%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+26%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+28%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+30%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+32%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+34%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+36%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+38%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+40%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+42%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+44%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+46%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+48%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+50%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+52%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+54%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+56%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+58%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+60%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+62%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+64%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+66%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+68%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+70%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+72%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+74%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+76%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+78%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+80%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+82%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+84%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+86%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+88%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+90%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+92%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+94%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+96%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+98%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}
+@keyframes vibrate{0%{-webkit-transform:translateX(0);transform:translateX(0)}
+2%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+4%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+6%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+8%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+10%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+12%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+14%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+16%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+18%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+20%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+22%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+24%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+26%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+28%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+30%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+32%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+34%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+36%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+38%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+40%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+42%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+44%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+46%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+48%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+50%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+52%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+54%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+56%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+58%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+60%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+62%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+64%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+66%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+68%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+70%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+72%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+74%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+76%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+78%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+80%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+82%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+84%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+86%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+88%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+90%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+92%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+94%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+96%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}
+98%{-webkit-transform:translateX(2px);transform:translateX(2px)}
+100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}.vibrate{-webkit-animation-name:vibrate;animation-name:vibrate;-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards}
+@-webkit-keyframes rockLeft{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+@keyframes rockLeft{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.rockLeft{-webkit-animation-name:rockLeft;animation-name:rockLeft;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:left center;transform-origin:left center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}
+@-webkit-keyframes rockRight{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+@keyframes rockRight{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+15%{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+30%{-webkit-transform:rotate(-35deg);transform:rotate(-35deg)}
+45%{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+60%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+75%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
+90%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}
+100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.rockRight{-webkit-animation-name:rockRight;animation-name:rockRight;-webkit-animation-duration:3s;animation-duration:3s;-webkit-transform-origin:right center;transform-origin:right center;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}
