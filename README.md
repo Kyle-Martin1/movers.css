@@ -120,12 +120,14 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                         | `.bgColorShift`             |
 |                         | `.shapeShift1`              |
 |                         | `.pendulum`                 |
-|                         | `.rocking`                  |    
+|                         | `.rocking`                  |  
+|                         | `.rockLeft`                 |
+|                         | `.rockRight`                |  
 |                         | `.elastic1`                 |
 |                         | `.elastic2`                 |
-|                         | `.suprise`                  | 
-|                         | `.moveSquare`               | 
-|                         | `.vibrate`                  | 
+|                         | `.suprise`                  |
+|                         | `.moveSquare`               |
+|                         | `.vibrate`                  |
 
 
 <br>
