@@ -7,7 +7,7 @@
 :root {
   font-family: 'Luckiest Guy', 'Oswald', cursive;
   --primaryColor: #FFF;
-  --secondaryColor: #FFCE38;
+  --secondaryColor: #fce77e;
   --thirdColor: #2ba64f;
   --fourthColor: #d9428a;
   --fifthColor: #f32a26;
@@ -108,9 +108,9 @@ body {
 
 .heroPageAnimation p {
   z-index: -3;
-  color: white;
-  -webkit-filter: drop-shadow(1px 1px 1px black);
-          filter: drop-shadow(1px 1px 1px black);
+  color: black;
+  -webkit-filter: drop-shadow(1px 1px 1px white);
+          filter: drop-shadow(1px 1px 1px white);
 }
 
 /**************************************** Header and See More Section ****************************************/
@@ -260,9 +260,9 @@ aside a {
 }
 
 .cursor {
-  height: 7px;
-  width: 7px;
-  background: var(--fourthColor);
+  height: 6px;
+  width: 6px;
+  background: black;
   border-radius: 50%;
   position: absolute;
   z-index: -1 !important;
@@ -281,9 +281,9 @@ aside a {
 #cursorOuter {
   height: 20px;
   width: 20px;
-  border: var(--fourthColor) solid 2px;
+  border: black solid 2px;
   border-radius: 25%;
-  background: white;
+  background: var(--seventhColor);
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -323,8 +323,9 @@ aside a {
 /**************************************** Animation Examples ****************************************/
 
 .animationExamplesContainer {
-  border-top: solid;
-  border-width: 3px;
+  background: var(--secondaryColor);
+  /*border-top: none;
+  border-width: 1.5px;
   background: var(--secondaryColor);
   -webkit-animation-name: colorChange2;
           animation-name: colorChange2;
@@ -333,7 +334,7 @@ aside a {
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+          animation-iteration-count: infinite;*/
 }
 
 .animationExamples {
@@ -342,7 +343,7 @@ aside a {
 }
 
 .animationExamples .animationExamplesContainer {
-  min-width: 70vw;
+  min-width: 100vw;
   min-height: 70vh;
   color: var(--animationTextColor);
   display: -webkit-box;
@@ -356,8 +357,13 @@ aside a {
           align-items: center;
 }
 
+#specialAnimationsStart {
+  border-top: 2px var(--seventhColor) solid;
+}
+
 #animateItem {
-  background-color: var(--primaryColor);
+  background-color: var(--seventhColor);
+  border: black solid 2px;
   width: 100px;
   height: 100px;
   display: -webkit-box;
@@ -570,54 +576,46 @@ aside a {
 
 @-webkit-keyframes colorChange2 {
   0% {
-    border-color: var(--primaryColor);
+    border-color: var(--seventhColor);
     opacity: 1;
   }
-  20% {
-    border-color: var(--fifthColor);
+  25% {
+    border-color: var(--secondaryColor);
     opacity: 1;
   }
-  40% {
-    border-color: var(--fourthColor);
+  50% {
+    border-color: var(--seventhColor);
     opacity: 1;
   }
-  60% {
-    border-color: var(--thirdColor);
-    opacity: 1;
-  }
-  80% {
-    border-color: var(--sixthColor);
+  75% {
+    border-color: var(--secondaryColor);
     opacity: 1;
   }
   100% {
-    border-color: var(--primaryColor);
+    border-color: var(--seventhColor);
     opacity: 1;
   }
 }
 
 @keyframes colorChange2 {
   0% {
-    border-color: var(--primaryColor);
+    border-color: var(--seventhColor);
     opacity: 1;
   }
-  20% {
-    border-color: var(--fifthColor);
+  25% {
+    border-color: var(--secondaryColor);
     opacity: 1;
   }
-  40% {
-    border-color: var(--fourthColor);
+  50% {
+    border-color: var(--seventhColor);
     opacity: 1;
   }
-  60% {
-    border-color: var(--thirdColor);
-    opacity: 1;
-  }
-  80% {
-    border-color: var(--sixthColor);
+  75% {
+    border-color: var(--secondaryColor);
     opacity: 1;
   }
   100% {
-    border-color: var(--primaryColor);
+    border-color: var(--seventhColor);
     opacity: 1;
   }
 }
