@@ -6,9 +6,24 @@
 
 <h2 align="center">How to use</h2>
 
-There are two main ways to use the `movers.css` library:
-- Clone the library and link to your HTML
-- Copy the code from the library and insert into your HTML
+There are three main ways to use the `movers.css` library:
+- Install via NPM and add the link to the HTML head tags
+- Clone the library and add the link the the HTML tags
+- Copy the code from the library and insert directly into your project CSS file and HTML
+
+<h2 align="center">Npm</h2>
+
+Install the movers.css package via npm
+```
+npm install movers.css --save
+```
+Then link the `movers.css` file in the head of your HTML
+```html
+<head>
+  <link href="node_modules/movers.css/movers.css" rel="stylesheet">
+</head>
+```
+<br>
 
 <h2 align="center">Clone</h2>
 
@@ -28,7 +43,6 @@ Add the animation class to the element you wish to animate
   <p>Hello World</p>
 </div>
 ```
-Enjoy the animations!
 <br>
 
 <h2 align="center">Copy</h2>
