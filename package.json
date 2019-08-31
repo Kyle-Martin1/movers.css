@@ -1,0 +1,24 @@
+{
+  "name": "movers.css",
+  "version": "2.0.0",
+  "description": "movers.css is a collection of CSS based animations designed to make life easier!",
+  "main": "movers.css",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kyle-Martin1/movers.css"
+  },
+  "keywords": [
+    "animate",
+    "css",
+    "movers",
+    "library"
+  ],
+  "author": "Kyle Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kyle-Martin1/movers.css/issues"
+  },
+  "homepage": "https://github.com/Kyle-Martin1/movers.css#readme"
+}
