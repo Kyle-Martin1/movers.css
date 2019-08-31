@@ -23,6 +23,12 @@ Then link the `movers.css` file in the head of your HTML
   <link href="node_modules/movers.css/movers.css" rel="stylesheet">
 </head>
 ```
+Add the animation class to the element you wish to animate
+```html
+<div class="helloWorldContainer fadeIn">
+  <p>Hello World</p>
+</div>
+```
 <br>
 
 <h2 align="center">Clone</h2>
