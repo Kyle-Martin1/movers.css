@@ -139,6 +139,7 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                         | `.shapeShift1`              |
 |                         | `.pendulum`                 |
 |                         | `.rocking`                  |  
+|                         | `.spinRightLeft`            |
 |                         | `.rockLeft`                 |
 |                         | `.rockRight`                |  
 |                         | `.elastic1`                 |

@@ -13,7 +13,8 @@
     "animate",
     "css",
     "movers",
-    "library"
+    "library",
+    "animation"
   ],
   "author": "Kyle Martin",
   "license": "MIT",

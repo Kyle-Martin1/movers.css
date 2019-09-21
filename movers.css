@@ -3329,3 +3329,72 @@ moveSquare
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
 }
+
+
+/**********************************************
+.spinRightLeft
+*********************************************/
+@-webkit-keyframes spinRightLeft {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(370deg);
+            transform: rotate(370deg);
+  }
+  47% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  60% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  93% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes spinRightLeft {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(370deg);
+            transform: rotate(370deg);
+  }
+  47% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  60% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  93% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.spinRightLeft {
+  -webkit-animation-name: spinRightLeft;
+          animation-name: spinRightLeft;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+-webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
