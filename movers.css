@@ -3398,3 +3398,64 @@ moveSquare
   -webkit-transform-origin: center;
           transform-origin: center;
 }
+
+
+/**********************************************
+.pulse
+*********************************************/
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  22% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  44% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  66% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  22% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  44% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  66% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}

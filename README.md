@@ -144,6 +144,7 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                         | `.rockRight`                |  
 |                         | `.elastic1`                 |
 |                         | `.elastic2`                 |
+|                         | `.pulse`                  |
 |                         | `.suprise`                  |
 |                         | `.moveSquare`               |
 |                         | `.vibrate`                  |
