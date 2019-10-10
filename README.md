@@ -144,10 +144,14 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                         | `.rockRight`                |  
 |                         | `.elastic1`                 |
 |                         | `.elastic2`                 |
-|                         | `.pulse`                  |
+|                         | `.pulse`                    |
 |                         | `.suprise`                  |
 |                         | `.moveSquare`               |
 |                         | `.vibrate`                  |
+|                         | `.focusLeft`                |
+|                         | `.focusRight`               |
+|                         | `.focusUp`                  |
+|                         | `.focusDown`                |
 
 
 <br>

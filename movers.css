@@ -12,15 +12,6 @@
   }
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -3454,6 +3445,282 @@ moveSquare
           animation-name: pulse;
   -webkit-animation-duration: 4s;
           animation-duration: 4s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+
+/*********************************************
+.focusRight
+*********************************************/
+@-webkit-keyframes focusRight {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  15% {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  30% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  45%{
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes focusRight {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  15% {
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  30% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  45%{
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px);
+  }
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.focusRight {
+  -webkit-animation-name: focusRight;
+          animation-name: focusRight;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+
+/*********************************************
+.focusLeft
+*********************************************/
+@-webkit-keyframes focusLeft {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  15% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  30% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  45%{
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes focusLeft {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  15% {
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  30% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  45%{
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px);
+  }
+  60% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.focusLeft {
+  -webkit-animation-name: focusLeft;
+          animation-name: focusLeft;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+
+/*********************************************
+.focusUp
+*********************************************/
+@-webkit-keyframes focusUp {
+  0% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  15% {
+      -webkit-transform: translateY(15px);
+              transform: translateY(15px);
+  }
+  30% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  45% {
+      -webkit-transform: translateY(15px);
+              transform: translateY(15px);
+  }
+  60% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+}
+
+@keyframes focusUp {
+  0% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  15% {
+      -webkit-transform: translateY(15px);
+              transform: translateY(15px);
+  }
+  30% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  45% {
+      -webkit-transform: translateY(15px);
+              transform: translateY(15px);
+  }
+  60% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+}
+
+.focusUp {
+  -webkit-animation-name: focusUp;
+          animation-name: focusUp;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+
+/*********************************************
+.focusDown
+*********************************************/
+@-webkit-keyframes focusDown {
+  0% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  15% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+  }
+  30% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  45% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+  }
+  60% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+}
+
+@keyframes focusDown {
+  0% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  15% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+  }
+  30% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  45% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+  }
+  60% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+  100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+  }
+}
+
+.focusDown {
+  -webkit-animation-name: focusDown;
+          animation-name: focusDown;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   -webkit-animation-fill-mode: backwards;
