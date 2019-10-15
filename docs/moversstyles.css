@@ -4542,6 +4542,52 @@ aside a {
           animation-iteration-count: infinite;
 }
 
+/*************/
+
+@-webkit-keyframes vanishAppear {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes vanishAppear {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.vanishAppear {
+  -webkit-animation-name: vanishAppear;
+          animation-name: vanishAppear;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+
 /**************************************** Media Queries ****************************************/
 
 @media (max-width: 900px) {

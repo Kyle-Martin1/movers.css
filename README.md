@@ -152,6 +152,7 @@ Each animation can be customised and tweaked by changing the CSS properties such
 |                         | `.focusRight`               |
 |                         | `.focusUp`                  |
 |                         | `.focusDown`                |
+|                         | `.vanishAppear`             |
 
 
 <br>
